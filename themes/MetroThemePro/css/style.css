@@ -1,0 +1,5098 @@
+a {
+  color: #2189E9;
+  text-decoration: none;
+}
+li {
+    line-height: 18px;
+}
+.yui-nav li {
+    line-height: 24px;
+}
+
+.subDmenu {
+	position:absolute;
+	display:none;
+	visibility:hidden;
+}
+
+
+#div_recordactions li a,.sugar_action_button .subnav li a,.menuItem, .menuItemHilite, 
+.menuItemX, .menuItemHiliteX, .menuItem:visited, .menuItemHilite:visited, .menuItem:hover, 
+.menuItemHilite:hover, .menuItem:active, .menuItemHilite:active, .menuItem:link, .menuItemHilite:link, 
+.menuItemX:visited, .menuItemHiliteX:visited, .menuItemX:hover, .menuItemHiliteX:hover, .menuItemX:active, 
+.menuItemHiliteX:active, .menuItemX:link, .menuItemHiliteX:link {
+  background-color: #FFFFFF;
+  border-left: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  color: #343433;
+  display: block;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 18px;
+  padding: 5px 7px 5px 10px !important;
+  text-decoration: none;
+  width: 100%;
+}
+#div_recordactions li:last-child a,.sugar_action_button .subnav li:last-child a
+{
+  border-bottom: 1px solid #CCCCCC;
+}
+#div_recordactions li:first-child a,.sugar_action_button .subnav li:first-child a
+{
+  border-top: 1px solid #CCCCCC;
+}
+
+#actionLinkBottom .sugar_action_button,#actionLinkTop .sugar_action_button
+{
+height:18px!important;
+padding-left:10px!important;
+}
+#actionLinkBottom .sugar_action_button a,#actionLinkTop .sugar_action_button a
+{
+padding-right:10px!important; 
+}
+
+
+.sugar_action_button .ab,.sugar_action_button span {
+  height:18px!important;
+  background-position:  5px 5px!important;
+  background-color:transparent!important;
+}
+
+#selectLinkBottom li
+{
+ background-color:transparent;
+}
+
+.menuItem:hover, .menuItemHilite:hover, .menuItem:active, .menuItemHilite:active,
+.menuItemX:hover, .menuItemHiliteX:hover, .menuItemX:active, .menuItemHiliteX:active {
+	color: #000;
+}
+
+.menuItem {
+	background-color:#f6f6f6;
+}
+
+.menuItemHilite {
+	background-color:#FFFFFF;
+}
+
+.menuItemX {
+	background-color:#CCCCCC;
+}
+
+.menuItemHiliteX {
+	background-color:#999999;
+}
+.menu 
+{
+	position:absolute;
+	display:none;
+	visibility:hidden;
+	background-color:#f6f6f6;
+	z-index: 2;
+	border: #999999 solid 1px;
+	filter:alpha(opacity=90);
+	-moz-opacity:0.9;
+	opacity: 0.9;
+/*	width:150px;*/
+}
+
+body 
+{ 
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+  background-color:#FFF;
+	color: #444444;
+  font-size: 14px;
+
+}
+
+
+fieldset, table, pre {
+  margin-bottom: 0;
+}
+
+fieldset {
+  border: 1px solid #DCDCDC;
+}
+p 
+{
+  clear: both;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+form 
+{
+	margin: 0px;
+}
+h1, h2 
+{
+    margin: 0;
+	font-weight: bold;
+}
+h3
+{
+	margin:0;
+	margin-bottom: 3px;
+	padding-top: 3px;
+}
+
+button,
+input[type="checkbox"],
+input[type="radio"],
+input[type="reset"],
+input[type="submit"] 
+{
+	padding:0px;
+}
+          
+input[type=text],input[type=password],textarea,select
+{
+  background-color: #FFFFFF;
+  border: 1px solid #DCDCDC;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+  display: inline-block;
+  line-height: 18px;
+  margin-bottom: 9px;
+  padding: 4px 6px;
+  vertical-align: middle;
+}
+input[type=text],input[type=password],textarea
+{
+  width:80%;
+}
+input[type=text],input[type=password]
+{
+  height: 18px;
+}
+
+.dateTime div {
+  margin-top: -6px;
+}
+
+input[type=checkbox],input[type=radio] 
+{
+	border:0px;
+	background-color: transparent;
+	margin: 0px;
+	vertical-align: bottom;
+}
+ul li 
+{
+	list-style-type: none; 
+	margin-left: 6px; 
+	margin-bottom: 2px;
+}
+ul 
+{
+	margin-top: 2px;
+    margin-right: 0;
+}
+hr
+{
+	height:1px;
+}
+
+div.clear
+{
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size:0;
+}
+th, td 
+{
+    border: none; 
+    padding: 0;
+}
+
+/* layout the header elements */
+#header div.line 
+{
+    height: 4px;
+    margin: 0;
+    padding: 0;
+}
+#header ul li
+{
+    display:inline;
+}
+#div_recordactions
+{
+  display: block;
+  margin-top: -5px;    
+  text-align:left;  
+  width:auto;
+}
+#div_recordactions,#div_recordactions li, #div_recordactions li a
+{
+ min-width:0px;
+}
+
+#divpreview
+{
+  position:absolute;
+  bottom:20px;
+  right:0px;
+  top:3px;
+  width:33%;
+  border-bottom: 1px solid #CCCCCC;
+  box-shadow: 4px 0 16px -4px rgba(0, 0, 0, 0.2) inset;
+}
+.previewheader {
+  border-bottom: 1px solid #CCCCCC;
+  box-shadow: 4px 0 16px -4px rgba(0, 0, 0, 0.2) inset;
+  height: 60px;
+  float:left
+  width: 100%;
+  z-index: 1;
+}
+.previewdata {
+  border-bottom: 1px solid #CCCCCC;
+  box-shadow: 4px 0 16px -4px rgba(0, 0, 0, 0.2) inset;
+  height:100%;
+  float:left
+  width: 100%;
+  z-index: 1;
+  padding:20px;
+}
+.previewsupanel {
+  background-color: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  float: left;
+  margin-bottom: 6px;
+  margin-left: 10px;
+  padding: 10px;
+  width: 220px;
+  min-height: 55px;
+}
+.padleft20
+{
+  float: left;
+  padding-left: 20px;
+}
+.subpl .padleft20
+{
+  text-align: left;
+  width: 90px;
+  margin-bottom: 8px;
+}
+
+.previewsupanel .notif_n{
+  font-size:13px;
+  font-weight:700;
+  overflow:hidden;
+  height:20px;
+  text-overflow:ellipsis;
+}
+.previewsupanel a{
+  color:#7D8CAB!important;
+}
+.divshowmore {
+  display:none;
+  clear:both;
+}
+
+.prevc {
+  float: left;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+.prevl {
+  font-size: 11px;
+ }
+ 
+.prevd {
+  clear: both;
+  float: right;
+  font-size: 14px;
+}
+
+#companyLogo, #companyLogoHome {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+#sitemapLink, #sitemapLink2, #colorPicker
+{
+    float: right;
+}
+
+/* global links */
+#globalLinks
+{
+    padding: 0px 10px 3px 10px;
+    vertical-align: middle;
+    float:left;
+}
+#globalLinks ul 
+{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#globalLinks ul li
+{
+    float: left;
+    margin: 0 0.15em;
+    display:block;
+    margin-left:8px;
+    margin-right:8px;
+}
+#globalLinks ul li img
+{
+    margin-bottom: 1px; 
+    margin-left:2px; 
+    cursor: pointer; 
+    cursor: hand;
+}
+#globalLinks ul li:hover ul,
+#globalLinks ul a:hover ul
+{
+    visibility:visible; 
+}
+
+
+/* sitemap link */
+
+#sitemapLink,#sitemapLink2
+{
+    height: 24px;
+    vertical-align: bottom;  
+}
+
+#sitemapLink,#sitemapLink2
+{
+
+    background-color: #F5F4F5;
+    border: 2px solid #DAD9DB;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 0 3px 2px #F5F4F5;
+    color: #555555;        
+}
+
+
+#unified_search_advanced_img{
+cursor:pointer;
+}
+#unified_search_advanced_div 
+{
+    height: 1px; 
+    position: relative;
+	  overflow: hidden; 
+    width: 193px; 
+    padding-top: 5px;
+}
+#unified_search_advanced_div .edit.view
+{
+    padding:6px 6px 6px 4px;
+}
+#unified_search_advanced_div .edit.view td
+{
+    padding: 0 0.5em !important;
+}
+#themeColors img, #themeFonts img
+{
+    margin-bottom: 0;
+}
+
+/* color and theme picker */
+.themePicker
+{
+    padding-top: 1em;
+}
+.themePicker td
+{
+    padding: 0 !important;
+}
+.themePicker > table > tbody > tr > td
+{
+    text-align: left;
+    vertical-align: top;
+    width: 100%;
+}
+.themePicker hr
+{
+    margin: 0;
+}
+#themepickerLinkSpan
+{
+    cursor:pointer;
+}
+#colorPicker
+{
+    padding: 8px 5px 0px 7px;
+}
+#colorPicker ul 
+{
+    border: none;
+    padding: 3px 0 0 0;
+    margin: 0 0 0 10px;
+}
+#colorPicker ul li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 0px;
+    cursor: hand; 
+    cursor: pointer;
+    margin: 0;
+}
+#themeName
+{
+    font-weight: bold;
+}
+
+#leftColumn 
+{
+    left: 10px;
+    position: absolute;
+    float: left;
+    width: 14.5em;
+}
+.screen {
+  border: 10px solid #CCCCCC;
+  margin: auto;
+  margin-top:20px;
+  background-color:#FFF;
+}
+
+div#content {
+  border: 0 none;
+  margin: auto;
+  padding-bottom: 10px;
+  padding-top: 10px;  
+  position: relative;
+}
+div#content > table
+{
+	width: 100%;
+}
+/* put a bit of left margin in when the left column menu is hidden */
+div#content noLeftColumn
+{
+    margin-left: 5px;
+    border-left: none;
+}
+#HideHandle
+{
+    padding-top: 5px;
+    cursor: pointer; 
+    cursor: hand;
+}
+#HideMenu
+{
+    visibility: hidden;
+    position: absolute;
+    z-index:100;
+}
+#leftHandle
+{
+    float:left;
+	/*margin-top: 10px;*/
+}
+/* new record form */
+#newRecord form  
+{
+    padding: 8px 8px 5px 8px;
+}
+#newRecord form input,
+#newRecord form select,
+#newRecord form textarea  
+{
+    margin-bottom: 4px;
+    margin-top: 2px;
+    max-width: 140px;
+    *width: expression(this.clientWidth > 140 ? '140px':true);
+}
+#newRecord form button,
+#newRecord form input[type=button],
+#newRecord form input[type=submit],
+#newRecord form input[type=reset]
+{
+    padding-top: 0px;
+    vertical-align: bottom;
+}
+#newRecord form .dataLabel {
+    padding-bottom: 2px;
+    padding-top: 3px;
+    padding-left: 0px;
+    vertical-align: bottom;
+}
+#newRecord form .dataField 
+{
+    padding-bottom: 3px;
+}
+#newRecord form #jscal_trigger 
+{
+    margin-bottom: 4px;
+    margin-top: 2px;
+    vertical-align: bottom;
+}
+#newRecord form a:link,
+#newRecord form a:visited,
+#newRecord form a:hover
+{
+    text-decoration: underline;
+    border-bottom: 0px;
+    padding-left: 0px;
+}
+/* css dropdown menu */
+ul.cssmenu
+{
+    background-color:#F6F6F6;
+    border:1px solid #999999;
+    opacity:0.9;
+    position:absolute;
+    visibility:hidden;
+	  z-index:1;
+    font: 12px Arial, Verdana, Helvetica, sans-serif;
+	  margin-top: 5px;
+}
+ul.cssmenu li
+{
+    font-size: 11px !important;
+    font-weight: normal !important;
+    font-style: normal;
+    line-height:18px;
+    padding:1px 7px !important;
+    border-bottom:1px solid #C0C0C0;
+    float: none !important;
+    display: block;
+    margin:0 0.15em;
+}
+ul.cssmenu li:hover
+{
+    background-color:#FFFFFF;
+	color: #000;
+}
+ul.cssmenu li a 
+{
+    text-decoration: none;
+    font-size: 11px !important;
+}
+
+
+/* sub module list drop down */
+#submoduleList span
+{
+    display: none;
+}
+#submoduleList span.selected
+{
+    display: block;
+}
+#submoduleList li, #submoduleList ul{
+padding:0px;
+margin:0px;
+}
+
+#submoduleList li.subTabMore{
+position:relative;
+}
+
+#submoduleList ul.cssmenu{
+display:block;
+position:absolute;
+top:15px;
+left:0;
+width:127px;
+}
+
+#header ul.cssmenu li{
+display:block;
+}
+
+#submoduleList ul.cssmenu li a,
+#submoduleList ul.cssmenu li a:hover{
+color:#000;
+border:none;
+background:transparent none repeat scroll 0% 0%;
+}
+
+#submoduleList li.subTabMore ul.cssmenu{
+visibility:hidden;
+}
+
+#submoduleList li.subTabMore:hover ul.cssmenu{
+visibility:visible;
+}
+#submoduleList
+{
+    padding:0.4em 0 0.3em 0;
+}
+#submoduleList span a
+{
+    text-decoration: none;
+    padding: 0.2em 0.5em 0.3em 0.5em;
+	margin: 0 -3px 0 0;
+	white-space:nowrap;
+}
+/* last viewed and shortcuts lists in the header */
+.headerList
+{
+    padding: 0px 0 3px 6px;
+    vertical-align: middle;
+}
+.headerList a:link, .headerList a:visited, .headerList a 
+{
+    padding: 2px 5px;
+    white-space: nowrap;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+/* for lists of items in the left column ( such as the shortcuts or last view items lists ) */			
+.leftList ul 
+{
+    width: 100%;
+    padding: 0px;
+    border-top: 0px;
+    margin: 0px 0px 10px 0px;
+    color: #000;
+    background: #f1f1f1;
+}
+.leftList ul li
+{
+    list-style: none;
+    margin: 0px;
+    border: 0px;
+}
+.leftList ul li a
+{
+    display: block;
+    border: 0px;
+    text-decoration: none;
+    color: #444;
+    text-align: left;
+    padding: 3px 3px 3px 6px;
+}
+
+.leftList ul li span:hover a
+{
+    text-decoration: none;
+}
+
+/* module title */
+div.moduleTitle {
+  clear: both;
+  height: 33px;
+  margin-left: 10px;
+}
+
+.moduleTitle img
+{
+    margin-right: 3px;
+    margin-top: 3px;
+    border: 0;
+}
+.moduleTitle h2
+{
+    display: block;
+    float: left;
+}
+
+.moduleTitle h2 span.pointer 
+{
+    padding: 0px 8px;
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.moduleTitle span.utils
+{
+    display: block;
+    float: right;
+    margin-top: 0;
+}
+.moduleTitle span.utils a img
+{
+    margin-bottom: -3px;
+}
+
+/* EditView/projects -> grid  */
+.sqsSelectedSmartInputItem 
+{
+    background-color:#DEEFFF;
+}
+
+/* DetailView/EditView/ListView styles */
+.view, table.view
+{
+    margin-bottom:3px;
+    margin-top:0px;
+    padding:10px 6px 12px 10px;
+    padding:20px 16px 22px 30px;      
+    width: 100%;  
+ 
+}
+.view tr td table, 
+.view tr td table tr td
+{
+    padding: 0;
+}
+.view tr td input[type=checkbox]
+{
+    vertical-align: middle;
+}
+
+
+/* DetailView styles */
+
+.detail h4 {
+  border: medium none;
+  font-weight: normal;
+  font.size:14px;
+  margin: 0;
+  padding-bottom: 12px;
+  padding-left: 0;
+  padding-top: 6px;
+  text-align: left;
+}
+
+.buttons {
+  padding-bottom: 2px;
+  padding-left: 0;
+  padding-right: 3px;
+  text-align: right;
+  width: 95%;
+}
+.detail tr td span,.detail tr td slot ,.panelContainer tr td
+{
+    border: none; 
+	  vertical-align: top;
+    padding: 5px 6px 5px 6px;
+    vertical-align: top;
+    text-align: left;
+    font-size:16px;
+    font-weight:500;
+}
+.detail tr td:first-child slot
+{
+    font-size:11px;
+    font-weight:normal;
+}
+
+.detail tr td[scope=row],fieldset tr td[scope=row] 
+{
+    margin-top: 2px;
+    margin-bottom: 10px;
+    text-align: right;
+    white-space:nowrap;
+    border:none;
+}
+                    
+.detail tr td > li
+{
+    margin-left: 1.5em;
+}
+/* editviews top buttons */
+#EditView > table {margin-bottom: 2px;}
+
+/* editviews */
+.edit
+{
+    padding:0 !important;
+}
+
+.edit > table
+{
+    margin-bottom: 0px;
+    padding: 3px 3px 3px 10px!important;
+}
+
+.edit h4
+{
+	color:#4398EC;
+  font-size: 18px;
+  font-weight:normal; 
+  background-color: #F5F5F5;
+}
+.edit tr td
+{
+    font-weight: normal;
+	  vertical-align: top;
+    padding: 3px !important;
+    padding-right: 15px !important;
+    padding-top:5px;
+    font-size:12px;
+
+}
+
+.edit tr td[scope=col],label
+{
+    text-align:right; 
+    color:#58595B;
+    font-size:11px;
+}
+
+.edit tr th 
+{
+    padding: 5px 5px 5px 7px !important;
+}
+table#tabFormPagination td,  #tabFormPagination, #EditView > table#tabFormPagination.detail.view
+{
+	border-bottom: none;
+	margin-bottom: 0;
+}
+.edit tr td table, 
+.edit tr td table tr td
+{
+//    padding: 0 !important;
+}
+
+.iconsearch {
+  background-color: #FFFFFF;
+  background-image: url("../../../../themes/MetroThemePro/images/search.png");
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  float: left;
+  height: 22px;
+  margin-top: 2px;
+  width: 24px;
+  border: 1px solid #DCDCDC;
+  margin-left: -1px;
+}
+
+.iconmore {
+  background-image: url("../../../../themes/MetroThemePro/images/more.png");
+  background-position: 0 3px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  float: right;
+  height: 26px;
+  width: 30px;
+}
+.divsearch {
+  float: right;
+  margin-right: 20px;
+}
+
+
+.iconrecents
+{
+  background-image: url('../../../../themes/MetroThemePro/images/historytop.png');
+  background-repeat: no-repeat;
+  background-position: 0 3px;
+  width:30px;
+  height:26px;
+  float:right;
+  margin-right:15px;
+  cursor:pointer;
+}
+#notifications {
+  background-image: url("../../../../themes/MetroThemePro/images/notificationstop.png");
+  background-position: 0 4px;
+  background-repeat: no-repeat;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  height: 28px;
+  margin-right: 25px;
+  text-align: center;
+  width: 25px;
+}
+#notifications > span {
+  background-color: #F47B20;
+  margin-right: -22px;
+}
+
+#createtop {
+  background-image: url('../../../../themes/MetroThemePro/images/createtop.png');
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  height: 18px;
+  margin-right: 15px;
+  padding-top: 5px;
+  text-align: center;
+  width: 25px;
+  height:20px;
+}
+
+
+.iconrecents ul
+{
+  margin-left: -100%;
+}
+
+#query_string {
+  background-color: #FFFFFF;
+  color: #F5F5F5;
+  float: left;
+  height: 16px;
+  margin-top: 2px;
+  padding: 3px 1px 3px 9px;
+  width: 130px;
+}
+
+
+
+#query_string:focus {
+  color: #343433;
+  outline: 0 none;
+  text-shadow: 0 1px 0 #FFFFFF;
+}
+/* search panel on top of list views ( extends .edit .view definition ) */
+.edit .view {
+  border: 0px solid #DCDCDC;
+}
+.search
+{
+	margin: 0 0 4px 0 !important;
+	padding:10px 6px 12px 10px;
+}
+.search > table
+{
+	padding: 0 !important;
+    margin: 0;
+}
+.search td span
+{
+    color:#444444;
+}
+.search td input[type=text],
+.search td input[type=password],
+.search td select
+{
+    width: 150px !important;
+}
+
+/* Listview styles */
+.list, .edit .list
+{
+    padding: 0 !important;
+    margin-bottom: 10px;
+    background-color:#FFF;
+}
+.list tr.pagination,
+.list tr.pagination td,
+.list tr.pagination td table
+{
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+.list tr.pagination td table td
+{
+    padding: 3px 7px 3px 5px !important;
+}
+.list tr.pagination td table td button
+{
+    width: 25px;
+}
+.list tr.pagination td table td a:link, 
+.list tr.pagination td table td a:visited,
+.reportGroupByDataChildTablelistViewThS1 a:link,
+.reportGroupByDataChildTablelistViewThS1 a:visited,
+#div_recordactions li a,#div_recordtasks li a
+{
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0px;
+}
+#selectedRecordsTop
+{
+  font-size:12px;
+}
+  
+#selectCountTop {
+  height: 9px;
+  margin-bottom: 2px;
+  margin-left: -5px;
+}
+.list tr.pagination td table td a:hover,
+.reportGroupByDataChildTablelistViewThS1 a:hover
+{
+    text-decoration: underline;
+}
+.list tr.pagination .buttons
+{
+    padding: 2px 2px 2px 0 !important;
+}
+.list tr.pagination #selectCountTop
+{
+    width: 5em;
+}
+.td_alt, .list tr th, .list tr td[scope=col],
+.edit .list tr th, .edit .list tr td[scope=col]
+{
+    font-size: 11px;
+    font-weight: normal;
+    text-align: left;
+    padding: 4px 5px 4px 5px !important;
+    border-left: none;
+    border-right: none;
+    white-space:nowrap;
+    line-height: 26px;
+
+}
+
+.list tr td
+{
+    vertical-align: middle;
+    padding: 3px 8px 5px 5px !important;
+}
+.list tr.pagination td
+{
+    padding: 0 !important;
+}
+.list tr td.odd
+{
+    padding: 3px 8px 5px 5px;
+    vertical-align: middle;
+}
+
+.list th a:link, 
+.list th a:visited,
+.list td[scope=col] a:link, 
+.list td[scope=col] a:visited
+{
+    text-decoration: none;
+}
+.list th {
+  color: #76777A;
+  font-size: 11px;
+  font-weight: normal;
+  line-height: 26px;
+}
+.list th a:hover,
+.list td[scope=col] a:hover
+{
+    text-decoration: underline;
+}
+
+.list tr.oddListRowS1 td,
+.list tr.evenListRowS1 td
+{
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+.list tr.oddListRowS1 td[nowrap], 
+.list tr.evenListRowS1 td[nowrap] 
+{ 
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+.list td a.listViewTdToolsS1,
+.list tr td.nowrap
+{
+    white-space: nowrap;
+    word-wrap: normal;
+}
+
+/* style for page content tables */
+.other
+{
+    border: none !important;
+    margin: auto;
+    margin-bottom: 20px !important;
+    padding: 0 !important;
+    width: 96% !important;
+
+}
+.screen .view, .edit {
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+
+.other td 
+{
+    font-weight: normal;
+    padding: 4px 10px 4px 6px;
+    vertical-align: middle;
+}
+.other td[scope=row] 
+{
+    padding: 4px 6px 4px 6px;
+    white-space:nowrap;
+}
+.other .edit td
+{
+	background: transparent !important;
+}
+.other .edit 
+{
+	margin-top: 0;
+}
+
+/* Special for Campaigns Wizard */
+.other td.edit #wizard td
+{
+	background: transparent;
+}
+.other td.edit #wizard h4
+{
+	padding-left: 0;
+	margin-top: 0;
+}
+#wizard td
+{
+	white-space: normal;
+    word-wrap: break-word;
+}
+
+/* detail view */
+.detail.view,
+.detail table,
+table.detail
+{
+    padding: 0;
+    width: 100%;
+ 
+}
+.detail tr.pagination td
+{
+    padding-top: 4px;
+    text-align: right;
+	vertical-align: middle;
+}
+.detail table tr.pagination td
+{
+    padding-bottom: 4px;
+}
+.detail td > table tr td
+{
+    border: none;
+}
+/* Upgrade Wizard*/
+.small{
+    width:100%;
+}
+.small table{
+    width:auto;
+}
+.small tr td table{
+    background-color:transparent;
+}
+.small tr td[scope=row] table tr td, .small tr td[scope=row] table tr th{
+    background-color:transparent;
+}
+
+.small tr td table tr th{
+    text-align:left;
+    border-bottom:none;
+}
+
+/* for report wizard */
+.reportwizard
+{
+	padding: 10px 6px 12px 10px;
+}
+.reportwizard > table
+{
+	padding: 0 !important;
+}
+.reportwizard tr td
+{
+	vertical-align: middle;
+}
+/* for subpanel tabs */
+ul.tablist, ul.subpanelTablist
+{
+    list-style: none;
+    padding: 3px 0;
+    margin: 0;
+}
+
+ul.tablist li, ul.subpanelTablist li
+{
+    list-style: none;
+    margin: 0;
+    display: inline;     
+    line-height: 24px;    
+}
+ul.tablist li a, ul.subpanelTablist li a
+{
+    padding: 3px 8px;
+    margin: 0px;
+    border-bottom: none;
+    text-decoration: none;
+}
+ul.subpanelTablist #addPageItem a, ul.subpanelTablist #addPageItem a:hover  
+{
+    border: none;
+    background: transparent;
+    text-decoration: none;
+}
+ul.tablist li a:link, ul.tablist li a:visited, ul.subpanelTablist li a:link, ul.subpanelTablist li a:visited 
+{ 
+    text-decoration: none; 
+}
+
+.subpanelTabForm 
+{
+    padding: 15px 0px 0 0px;
+}
+table.subpanelTabForm td 
+{
+    padding-bottom: 2px;
+    padding-top: 0;
+}
+.subpanelTabForm p 
+{
+    margin-bottom:0;
+}
+.subpanelTabForm h3 
+{
+    padding-left: 3px;
+}
+.subpanelTabForm .h3Row 
+{
+    padding-top: 2px;
+    margin-top: 0;
+}
+.subpanelTabForm 
+{
+    margin-bottom: 10px;
+}
+#groupTabs {
+  line-height: 1.6em;
+  margin-top: 20px;
+  padding-bottom: 10px;
+} 
+
+.action_buttons {
+  padding: 4px;
+}
+
+table.subpanelTabForm
+{
+    border-top: 0px none; 
+    margin-bottom: 4px;
+}
+/* gantt styles */
+table.days {
+    font-size: 11px;
+}
+td.days {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+td.sunday {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 0px;
+}
+
+td.saturday {
+    border-top: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 0px;
+    border-right: 1px solid #dfdfdf;
+}		
+
+td.date {
+    width: 100%;
+    padding: 0px;
+    border: 0px;
+    font-size: 10px;
+}	
+
+tr.empty {
+    height: 2px;
+}
+
+div.completed {
+    background-color: #777777;
+    float: left; 
+    width: 100%; 
+    line-height: 10px; 
+    margin-top: 4px;
+}	
+
+div.inprogress {
+    background-color: #002E4D;
+    float: left; 
+    width: 100%; 
+    line-height: 10px; 
+    margin-top: 4px;
+}
+
+div.inprogress_bar {
+    background-color: #ff0000;
+    float: left; 
+    width: 100%; 
+    line-height: 10px; 
+    margin-top: 4px;
+}
+
+div.notstarted {
+    background-color: #cccccc;
+    float: left; 
+    width: 100%; 
+    line-height: 10px; 
+    margin-top: 4px;		
+}
+
+div.indent_left {
+    background-color: #000000;
+    float: left; 
+    line-height: 10px; 
+    margin-top: 4px;
+}
+
+div.indent_bar {
+    background-color: #000000;
+    float: left; 
+    margin-top: 4px;
+}
+
+div.indent_right {
+    background-color: #000000;
+    float: right; 
+    line-height: 10px; 
+    margin-top: 4px;
+}	
+    
+#horizWrapper {position:relative; margin-left:60px;width:218px;float:left;}
+#horizBGDiv {position:relative; top:60px; background:url(../../../../index.php?entryPoint=getImage&imageName=horizBg.png) no-repeat; height:26px; width:218px;zindex:5 }	
+#horizHandleDiv { 
+    position:absolute; 
+    left: 100px; /* the default position is the center of the bg */
+    top: 8px;  /* force the image down a bit */
+    cursor:default;
+    width:18px; 
+    height:18px; 
+}		
+    
+/* end gantt styles */
+form[name="UnifiedSearchAdvancedMain"] {
+  margin-top: 20px;
+}
+.search_form
+{
+  overflow: visible;
+	text-align: left;
+}
+
+.search_form .view {
+  background-color: #D4D4D4;
+  margin: 0 0 3px;
+  padding-left: 10px !important;
+  padding-right: 0 !important;
+  padding-top: 10px !important;
+  width: 99%;
+  border: 1px solid #D4d4d4;
+}
+/* sitemap */
+
+#sitemap
+{
+    width: 650px;
+    display:none;
+    z-index:9999;
+    margin-right:1em;
+    margin-top:2.5em;
+}
+#sitemap .edit.view
+{
+    border: 2px solid;
+    padding: 6px 6px 6px 16px;
+}
+#sitemap a:link, #sitemap a:visited 
+{
+    text-decoration:none;
+    font-size: 11px;
+    color: #444;
+}
+#sitemap a:hover, #sitemap h4 a:hover 
+{
+    text-decoration:underline;
+}
+#sitemap h4 a:link, #sitemap h4 a:visited 
+{
+    font-size: 13px;
+}
+#sitemap ul 
+{
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+}
+#sitemap ul li 
+{
+    margin-bottom: 5px !important;
+    display: list-item;
+}
+
+/* sitemap link div */
+
+#sitemapLink span {
+  cursor: pointer;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 7px;
+  padding-top: 2px;
+}
+
+#sitemapLink2 span {
+  cursor: pointer;
+  height: 14px;
+  padding-bottom: 4px;
+  padding-top: 6px;
+}
+
+#sitemapLink span img,#sitemapLink2 span img
+{
+    cursor:pointer;
+    margin-left: 2px;
+}
+
+#bottomLinks {
+  display:none;
+}
+
+#bottomLinks a {
+}
+
+#bottomLinks a.bottomLink {
+}
+
+#bottomLinks img {
+	border: 0px;
+	margin-bottom: -3px;
+	margin-left: 5px;
+}
+
+/* Footer styles */
+#footer 
+{
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+    clear: both;
+}
+
+#themePicker, #langPicker 
+{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+#themePicker select, #langPicker select 
+{
+    width: 120px;
+    font-size: 10px;
+}
+    
+/* Scheduler Styles */
+#scheduler
+{
+    margin-top: 5px;
+}
+#scheduler .schedulerDiv 
+{
+    color: #000000;
+	text-align: left;
+    width: 100%;
+    background-color: #FAFAFA;
+	border-collapse: collapse;
+	border-bottom: 1px solid #999;
+}
+#scheduler .schedulerDiv table 
+{
+    width: 100%;
+	border-collapse: collapse;
+}
+#scheduler .schedulerDiv table tr td 
+{
+	height: 18px;
+    border: 1px solid #dddddd;
+}
+#scheduler .schedulerDiv table tr.schedulerTimeRow td 
+{
+	border-left: 0;
+}
+#scheduler .schedulerDiv table tr.schedulerTimeRow th[scope=col]
+{
+    border-left:1px solid #DDDDDD;
+    padding-left:4px;
+}
+#scheduler .schedulerDiv table tr.schedulerAttendeeRow td
+{
+	background-color: #eeeeee;
+    width: 15px;
+}
+#scheduler .schedulerDiv table tr.schedulerAttendeeRow td[scope=row]
+{
+    overflow: hidden;
+    padding-left: 4px;
+	width: 125px;
+    background: transparent;
+    border-left: 0;
+}
+#scheduler .schedulerDiv table tr.schedulerAttendeeRow td.schedulerSlotCellStartTime
+{
+	border-left: 4px solid #75AF4F !important;
+    background-color:#FFFFFF;
+}
+#scheduler .schedulerDiv table tr.schedulerAttendeeRow td.schedulerSlotCellEndTime
+{
+	border-left: 4px solid #ff0000 !important;
+}
+#scheduler .schedulerDiv table tr.schedulerAttendeeRow td.schedulerAttendeeDeleteCell
+{
+	background: transparent;
+    border-left: 1px solid #dddddd;
+	padding-left: 4px;
+}
+#scheduler .schedulerInvitees
+{
+    margin-top: 1em;
+}
+#scheduler .schedulerInvitees .tabForm
+{
+    margin-bottom: 0;
+}
+.email {
+  margin-top: 15px;
+}
+.email #checkEmailButton img,
+.email #composeButton img,
+.email #settingsButton img
+{
+  display:none;
+}
+/* calendar module styles */
+.monthFooter td 
+{
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    border-top: 1px solid;
+    border-bottom: 2px solid;
+}
+
+
+.monthHeader {
+  background-color: #FFFFFF;
+  border-bottom-color: #ABC3D7;
+  border-left-color: #ABC3D7;
+  border-right-color: #ABC3D7;
+  color: #444444;
+  margin-top: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.monthHeader div {
+  margin-top: 7px;
+}
+.monthHeader div h3 {
+  margin-top: -7px;
+}
+
+.monthHeader td 
+{
+    padding-left: 5px;
+}
+.monthViewDayHeight 
+{
+    height: 100px;
+}
+.monthViewDayHeight td[scope=row] 
+{
+    padding: 5px;
+    text-align:center;
+}
+.monthViewDayHeight td 
+{
+    vertical-align: top;
+    padding: 3px;
+    text-align: right !important;
+}
+.yearViewDayHeight 
+{
+    height: 40px;
+}
+.monthCalBodyDayItem 
+{
+    margin: 7px 0px 7px 0px;
+    padding: 5px 0px 8px 0px;
+    border-top: 1px solid;
+}
+.monthCalBodyDayItem td 
+{
+    vertical-align: top;
+}
+.monthCalBodyDayItem td img 
+{
+    padding-right: 3px;
+    vertical-align: top;
+}
+.monthCalBody th 
+{
+    vertical-align: top;
+    padding: 7px;
+    height: 20px;
+    font-weight: normal;
+}
+.monthCalBodyTH th 
+{
+    padding: 5px !important;
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+.monthCalBody td 
+{
+    padding: 5px;
+    text-align: left;
+}
+.monthCalBody td div table td {
+text-align: left!important;
+}
+.monthCalBody
+{
+   padding: 0; 
+}
+.monthCalBody td.yearCalBody
+{
+    padding: 0;
+	margin: 0;
+}
+.yearCalBodyMonth 
+{
+    padding:5px 0 0 0 !important;
+    text-align:center !important;
+}
+.yearCalBodyMonth #daily_cal_table 
+{
+    margin-top: 5px;
+}
+.yearCalBodyMonth > a
+{
+    font-weight: bold;
+    margin: 0px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 5px;
+    text-decoration: none !important;
+}
+.yearCalBodyMonth > a:hover 
+{
+    text-decoration: underline;
+}
+.calSharedUser 
+{
+    height: 20px;
+    padding-top: 5px;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-top: 1px;
+}
+
+/* js calendar styles */
+.calendar
+{
+    border: 1px solid #999;
+}
+.calendar .button 
+{
+    background-color: #eee;
+    background-image: none;
+}
+.calendar .combo 
+{
+    border-top: 1px solid #f1f1f1;
+    border-right: 1px solid #999;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #f1f1f1;
+    background: #eee;
+    padding: 0px;
+}
+.calendar .combo .active 
+{
+    background: #eee;
+}
+.calendar .combo .hilite 
+{
+    background: #f8f7f7;
+    padding: 1px 4px 1px 4px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: #9e9e9e;
+}
+.calendar .combo .label,
+.calendar .combo .label-IEfix 
+{
+    text-align: left;
+    padding: 2px 4px 2px 4px;
+}
+.calendar .nav 
+{
+    background: transparent no-repeat 100% 100%;
+}
+.calendar table 
+{
+    background: #eee;
+}
+.calendar table .wn 
+{
+    background: #eeeeee;
+    border-right: 1px solid #ccc;
+}
+.calendar tbody .day 
+{
+    background: #fff;
+    text-align: right;
+    padding: 2px 4px 2px 2px;
+}
+.calendar tbody .day.othermonth.oweekend 
+{
+    color: #666;
+}
+.calendar tbody .emptycell 
+{
+    display: hidden;
+}
+.calendar tbody .rowhilite td, 
+.calendar tbody .rowhilite td.weekend 
+{
+    background: #f6f6f6;
+}
+.calendar tbody .rowhilite td.wn 
+{
+    background: #fff;
+}
+.calendar tbody td.hilite, 
+.calendar tbody td.weekend.hilite 
+{
+    background: #f8f7f7;
+    border-color: #9e9e9e;
+}
+.calendar tbody td.selected 
+{
+    border-color: #666;
+    background: #eee;
+}
+.calendar tbody td.today 
+{
+    color: #666;
+}
+.calendar tbody td.weekend 
+{
+    color: #666;
+    background: #f9f9f9;
+}
+.calendar tfoot .ttip 
+{
+    background: #e8f0f4;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ccc;
+    background: #dfdfdf;
+    color: #000;
+}
+.calendar thead .hilite 
+{
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    border-right: 1px solid #fff;
+}
+.calendar thead .name 
+{
+    background: #dddddd;
+	border-color: #cccccc;
+}
+.calendar thead .title 
+{
+    padding: 3px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #cccccc;
+    color: #000;
+    background: #f8f7f7;
+}
+.calendar thead .weekend 
+{
+    color: #000;
+    font-weight: bold;
+}
+.listViewCalCurrentAppt {
+	background-color: #75AF4F;
+}
+.listViewCalOtherAppt {
+background-color: #4D5EAA;
+}
+.listViewCalConflictAppt {
+background-color: #AA4D4D;
+}
+.listViewCalCurrentApptLgnd {
+background-color: #75AF4F;
+border: 1px solid #444444;
+}
+.listViewCalOtherApptLgnd {
+background-color: #4D5EAA;
+border: 1px solid #444444;
+}
+.listViewCalConflictApptLgnd {
+background-color: #AA4D4D;
+border: 1px solid #444444;
+}
+
+/** report styles **/
+table.reportlistViewRC{
+    /* this definition should be exactly the same as .listViewThS1 */
+    background:Black;
+}	
+
+table.reportlistView{
+    /* this definition should be exactly the same as .listViewThS1 */
+    background:Black;
+}	
+ 
+.reportlistViewThS1 {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding: 4px 5px 4px 5px;
+    border-left: none;
+    border-right: none;
+    border-top: 1px solid Black;
+    border-bottom: 1px solid Black;
+    background:Gainsboro;
+}
+
+.reportevenListRowS1, .reportoddListRowS1 {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    vertical-align: middle;
+    background:white;
+}
+
+.reportlistViewPaginationTdS1 {
+    border: none;
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    background:white;
+}
+
+/* These are for summation report */
+.reportViewTable {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background:White;
+}
+.reportGroupViewTable {
+    border-left: 1px solid Black;
+    border-top: 1px solid Black;
+    background:LightGrey;
+}
+.reportGroup1ByTable {
+    font-size: 15px;
+    border-left: none;
+    border-right: 1px solid Black;
+    border-bottom: 1px solid Black;
+    background:LightGrey;
+}
+.reportGroupNByTable {
+    font-size: 13px;
+    border-left: none;
+    border-right: 1px solid Black;
+    border-bottom: none;
+    background:White;
+}
+.reportGroupByDataTableHeader {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background:White;
+}
+.reportDataChildtablelistView {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background:Black;
+}
+table.reportDataChildtablelistView td {
+    border-color: #ccc;
+    background: white;
+    padding:4px 5px;
+}
+.reportGroupByDataChildTablelistViewThS1 {
+    font-size: 11px;
+    font-weight: bold;
+    text-align: left;
+    padding: 4px 5px 4px 5px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    background:White;
+}
+.reportGroupByDataEvenListRowS1, .reportGroupByDataOddListRowS1 {
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    vertical-align: middle;
+    background:white;
+}
+.reportGroup1ByTableEvenListRowS1 {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    vertical-align: middle;
+    background:LightGrey;
+    text-align: left;
+}
+.reportGroupNByTableEvenListRowS1 {
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    vertical-align: middle;
+    background:LightGrey;
+    text-align: left;
+}
+.reportGroupBySpaceTableView {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background:White;
+}
+.reportGroupByDataTableHeaderEmptyCell {
+    border-bottom: 1px solid Black;
+    border-top: 1px solid Black;
+    background:White;
+}
+.reportevenListRowS1, 
+.reportoddListRowS1, 
+.reportGroupByDataEvenListRowS1, 
+.reportGroupByDataOddListRowS1, 
+.reportGroupByDataMatrixEvenListRowS1, 
+.reportGroupByDataMatrixEvenListRowS2, 
+.reportGroupByDataMatrixEvenListRowS3, 
+.reportGroupByDataMatrixEvenListRowS4
+{
+    padding-bottom: 4px;
+    padding-top: 2px;
+}
+
+/* End of summation report classes */
+
+
+/* Start of Matrix Report Class */
+.reportlistView {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;		
+    }
+table.reportlistView td, table.reportlistView th {
+    background: #fff;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    color: #000;
+    padding: 4px;
+    text-align: center;
+    font-size: 11px;
+    }
+    table.reportlistView th, .reportlistView .reportlistViewMatrixRightEmptyData, .reportlistView .reportlistViewMatrixRightEmptyData1 {
+    background: #dcdcdc;
+    font-weight: bold;
+    }
+    
+/* End of matrix report classes */
+
+/* for overlib js library */
+.olCapFontClass { 
+	font-weight: bold; 
+	color: #444;
+	background-color: #dfdfdf; 
+}
+.olCapFontClass A { 
+	color: #dfdfdf; 
+	font-size: 9px; 
+}
+.olFgClass td, #forecastsWorksheet .olBgClass td.olFgClass { 
+	background-color: #fff; 
+	padding: 5px 7px 7px 10px !important;
+	line-height: 18px;
+}
+.olCgClass td, #forecastsWorksheet .olBgClass td.olCgClass { 
+	border-bottom: 2px solid #ddd;
+	background-color: #f6f6f6; 
+	padding: 5px 3px 3px 10px !important;
+}
+.olCgClass {
+    padding: 0px;
+    border: 0px;
+}
+.olBgClass { 
+	background-color: #ddd; 
+	padding: 2px !important;
+}
+#forecastsWorksheet .olBgClass td {
+    padding: 0 !important;
+}
+.olCloseFontClass { 
+	padding-bottom: 1px;
+	text-align: right; 
+	background-color: #dfdfdf; 
+}
+
+/* acl role colors */
+.aclAll 
+{
+    color: #008000;
+    font-weight: bold;
+}
+.aclOwner 
+{
+    color: #000000;
+    font-weight: bold;
+}
+.aclNone 
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+.aclEnabled 
+{
+    color: #008000;
+    font-weight: bold;
+}
+.aclDisabled 
+{
+    color: #FF0000;
+    font-weight: bold;
+}
+.aclAdmin 
+{
+    color: #0000FF;
+    font-weight: bold;
+}
+.aclNormal 
+{
+    color: #008000;
+    font-weight: bold;
+}
+
+/* for lists where we don't want to have bullet points */
+ul.noBullet {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+
+li:first-child.noBullet,li:last-child.noBullet  {
+  box-shadow:none;
+}
+ 
+
+table.tabForm td ul li {
+list-style-type: none;
+margin-bottom: 10px;
+}
+
+.helpButton
+{
+	font-weight:700;
+}
+
+.helpShortcut
+{
+	font-weight:700;
+}
+/* for subpanels */
+#MorePanelHandle
+{
+    cursor: pointer; 
+    display: inline; 
+    margin-left: 2px; 
+    margin-bottom: 2px;
+    text-align: center;
+    background: url('../../../../index.php?entryPoint=getImage&imageName=more.gif') no-repeat bottom left;
+	color: #444;
+}
+
+.sqsFloater {
+position:absolute;
+z-index:2;
+bottom:0;
+right:0;
+display:none;
+padding:0;
+}
+
+.sqsFloater td {
+border:1px inset;
+color:black;
+}
+
+.sqsMatchedSmartInputItem {
+font-size:11px;
+padding: 2px 5px 2px 5px;
+margin: 0;
+cursor: pointer;
+cursor: hand;
+}
+
+.sqsSelectedSmartInputItem {
+background-color:#DEEFFF;
+}
+
+#sqsSmartInputResults {
+padding:0;margin:0;
+}
+
+.sqsNoMatch {
+padding: 2px 5px 2px 5px;
+font-weight: bold;
+background-color:#eeeeee;
+color:#980000;
+}
+/* misc font displays */
+.todaysTask 
+{
+    color: #FF7800
+}
+.overdueTask 
+{
+    color: #ff0000;
+}
+.required,
+.error 
+{
+    color: #ff0000;
+}
+.success 
+{
+    color: #00ee00;
+}
+.rssItemDate 
+{
+    color: #666666;
+}
+.date 
+{
+    font-size: 13px;
+    font-weight: bold;
+    border-bottom: 1px solid;
+    padding-right: 10px;
+}
+.dateFormat 
+{
+    font-weight: normal;
+    font-style: italic;
+}
+/* list view page numbers */
+.pageNumbers {
+padding-right: 3px;
+padding-left: 3px;
+font-size:12px!important;
+
+}
+.contentBox {
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+    padding: 0px 10px 0px 0px;
+    margin: 10px 0 10px 0;
+}
+.contentBox td
+{
+    padding-top: 0;
+}
+
+/* for team notices and my portal dashlets */
+.teamNoticeBox 
+{
+    border: 1px solid;
+    padding: 0;
+    background: #fff;
+    width:100%;
+}
+.teamNoticeText 
+{
+    padding: 0px 10px 0px 10px;
+}
+
+/* to force border to display on tiny-mce controls */
+.mceToolbarTop 
+{
+    border-bottom:1px solid #CCCCCC !important;
+}
+
+#dashletsList 
+{
+	background: #fff;
+}
+
+#dashletCtrls
+{
+    float: right;
+}
+
+ul#dashletCategories li a:link, ul#dashletCategories li a:visited
+{
+	color: #444;
+	background: #eee;
+}
+ul#dashletCategories li a.current, ul#dashletCategories li a.current:hover
+{
+	color: #444;
+	background: transparent;
+}
+#moduleDashlets h3,#chartDashlets h3,#toolsDashlets h3
+{
+    margin-top: 13px;
+}
+#dashletSearch table tr td input[type=button]
+{
+    vertical-align: top;
+}
+#dashletSearch input[type=text]
+{
+    width:200px;
+}
+.x-dlg-btns button.x-btn-text:hover,
+.x-dlg-btns .x-btn-focus button.x-btn-text
+{
+    color: #000;
+}
+
+/* Bug 27478 - IE Hacks to make sure username/password boxes on login page are same length */
+td.edit.view td
+{
+	text-align: left;
+}
+td.edit.view td[align=right]
+{
+	text-align: right;
+}
+#user_password, #user_name
+{
+	width: 150px;
+}
+
+/* if we have horizontal padding anywhere in the table, it will break the rollup tree */
+#forecastsWorksheet  tbody  tr  td,
+#forecastsWorksheet  tr  td
+{
+    padding: 3px 0px 5px 0px !important;
+}
+#forecastsWorksheet  tr.pagination  td
+{
+    padding: 0 !important;
+}
+#forecastsWorksheet tr.pagination td table td 
+{
+    padding:3px 7px 3px 5px !important;
+}
+/* for forecasts worksheet containing table ( overrides .list .view style ) */
+#forecastsWorksheet > tbody > tr > td,
+#forecastsWorksheet > tr > td,
+#forecastsWorksheet #activetimeperiods  tr  td
+{
+    padding: 0  ! important;
+    vertical-align: top;
+}
+
+/* help styles */
+.helpButton, .helpShortcut 
+{
+    font-weight: bold;
+}
+
+/* fixes email setting issues */
+#tab_general > form > table,
+#tab_general > form > table.detail th,
+#tab_accounts > table,
+#tab_accounts > table.detail th
+{
+    border: 0;
+}
+#tab_accounts .detail.view .edit.view
+{
+    margin-top: 0;
+}
+#tab_accounts #ieSelect > table, #ieAccount > table, #ieAccount > table td table
+{
+    padding: 0pt ! important; 
+    border-collapse: collapse;
+}
+#importDialogContent
+{
+    overflow: hidden;
+}
+#importDialogContent #importDiv
+{
+    margin-top: 0;
+}
+
+/* put a bit of left margin in when the left column menu is hidden */
+#content.noLeftColumn
+{
+    margin-left: 5px;
+    border-left: none;
+}
+
+/* override some of the detail view styles for show more detail option (KBDocument detail view)*/
+.detail td.subdetail{
+   padding:0px; 
+   border-bottom:medium none;
+}
+.detail td.subdetail table tr td{
+    padding: 5px 6px;
+}
+/* override some of the detail view styles for the import options dialog */
+#importOptions td
+{
+    padding: 5px 6px;
+}
+#importOptions table
+{
+    border-collapse:collapse;
+}
+#importOptions #chooser_choose_index_text,
+#importOptions #chooser_ignore_index
+{
+    background: white;
+    border: 0;
+    text-align: left;
+}
+
+/* login page*/
+.login table tr td
+{
+    padding:0px !important;
+    text-align:left;
+    color:#58595B;
+}                                 
+.login
+{
+    padding:10px 6px 12px 10px !important;
+}
+.login .login_more
+{
+    text-align:right;
+}
+
+#lastviewicon, #newrecordicon, #shortcuts_img,#lastviewicon_1, #newrecordicon_1, #shortcuts_img_1 {
+	display:none;
+}
+
+#color_menu, #font_menu {
+	width:200px;
+	height:15px;
+	margin:0;
+	padding:0px;
+}
+
+#color_menu li, #font_menu li{
+    float:left;
+	height:15px;
+	width:15px;
+}
+
+#themepickerDialog div[class="ft"]{
+	display:none;
+}
+
+#stylepicker{
+	   border-width:1px;
+	   margin:0px;
+	   padding:0px;
+	   width:auto;
+}
+
+#themepickerDialog_c{
+	right: 2em;
+    top: 3em;
+}
+
+#popup_query_form
+{
+    padding-left:0;
+    padding-right:0;
+}
+
+.emailaddresses tr td[scope=row]
+{
+    padding-left:0 !important;
+    padding-top:0 !important;
+}
+
+/*System Settings*/
+#container_upload 
+{
+    margin-top:7px;
+}
+
+/* Subpanel links */
+.subTabs td
+{
+    font-size: 12px;
+    padding: 0 0.25em;
+}
+
+.sugarFeedDashlet
+{
+	overflow:auto;
+	max-height:375px;
+	height:expression(this.scrollHeight>375?'375px':'auto');
+}
+
+.sugarFeedDashlet td.list th, .sugarFeedDashlet td.list td[scope=col]
+{
+	display:none;
+}
+
+.sugarFeedDashlet tr
+{
+	height:auto;
+}
+
+.sugarFeedDashlet .byLineBox
+{
+	width:100%;
+	position:relative;
+	overflow: hidden;
+}
+
+.sugarFeedDashlet .byLineBox .byLineLeft
+{
+	font-size:79%;
+	float:left;
+}
+
+.sugarFeedDashlet .byLineBox .byLineRight
+{
+	display:inline;
+	float:right;
+	font-size:79%;
+}
+
+iframe.teamNoticeBox
+{
+	display:none;
+  width:100%;
+	padding:0;
+}
+
+.loading-indicator
+{
+	font-size:11px;
+	background-image:url('../default/ext/resources/images/default/grid/loading.gif');
+	background-repeat:no-repeat;
+	background-position:left;
+	padding-left:20px;
+	line-height:16px;
+	margin:3px;
+}
+
+.x-sqs-list
+{
+	border:1px solid #d0d0d0;
+	background:#d0d0d0;
+	zoom:1;
+	overflow:hidden;
+}
+
+.x-sqs-list-inner
+{
+	overflow:auto;
+	background:#FFF;
+	position:relative;
+	zoom:1;
+	overflow-x:hidden;
+}
+
+.x-sqs-list-item
+{
+	font:normal 12px tahoma,arial,helvetica,sans-serif;
+	border:1px solid #fff;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	padding:1px;
+}
+
+.x-sqs-list .x-sqs-selected
+{
+	border:1px dotted #f6f6f6!important;
+	background:#d0d0d0;
+	cursor:pointer;
+}
+embed
+{
+    background: transparent;
+}
+
+
+#MassUpdate
+{
+    margin-top: 15px;
+}
+
+#massupdate_form
+{
+    margin-top: 20px;
+}
+
+#massupdate_form .buttons
+{
+    padding-bottom: 2px;
+}
+
+/* Bug 32603 - Fixes missing center line for KB Admin */
+#selected_directory_children
+{
+    border-left: 1px solid;
+    padding: 3px;
+}
+
+.dashletPanel .hd .hd-center .dashletToolSet a{
+	padding: 0px 2px;
+}
+
+
+.dashletPanel .hd h3{
+	font-size:18px;
+  font-weight:normal;
+}
+.dashletPanel .hd .hd-center .dashletToolSet a:last-child  {
+	padding-right: 0px;
+}       
+.bd {
+  margin-top: -9px;
+}
+
+.dashletPanelMenu.wizard.import .bd .screen {
+    padding: 20px;
+    border: 0px none;
+    border-radius: 0px;
+    height: 487px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: auto;
+    display: block;
+    background-color: #fff;
+}
+div.confirmTable {
+	    overflow: auto;
+	    width: 1056px;
+	    position: relative;
+	    margin-bottom: 20px;
+	}
+/* Bug 19728 - Email Templates detail view is different with edit view */
+#html_div p 
+{
+	margin: 12px 0px;
+}
+
+#html_div p:first-child {
+	margin: 0px 0px 12px 0px;
+}
+
+/* UNUSED STYLES */
+
+/* Default Styles */
+.h3Row, .other {
+  padding: 10px;
+  vertical-align: middle;
+}
+	
+.h3Row { 
+	margin-top: 10px;
+	vertical-align: middle;
+}
+.h3Row td
+{
+	padding: 4px 5px 3px 3px;
+}       
+h4, h5 
+{
+	margin-bottom: 0px;
+	padding-left: 4px;		
+}
+hr 
+{
+    border: 0;
+    border-top: 1px solid #999;
+    background-color: #999;
+    color: #999;
+    height: 1px;
+    margin: 1em 0;
+    clear: both;
+}
+
+
+.buttonSlide {
+	border: 0px;
+}
+
+.buttonSlide .yui-hd { 
+	border: 0px;  
+	background-color: transparent; 
+	padding: 0px;
+}
+
+.buttonSlide.yui-module .yui-hd .toggle em { 
+	background-image: url('../../../../index.php?entryPoint=getImage&imageName=slider_button_more.png');
+	background-repeat: no-repeat;
+	display: inline; /* prevent IE margin doubling */
+    overflow:hidden;
+    text-indent:9999px;
+	float: right;
+    overflow:hidden;
+    text-align: right;
+	height: 14px;
+	width: 14px;
+}
+
+.buttonSlide.yui-module.yui-closed .yui-hd .toggle em { 
+	background-image: url('../../../../index.php?entryPoint=getImage&imageName=slider_button_less.png');
+}
+
+.buttonSlide .yui-bd { 
+}
+
+input, select, textarea, button, .button
+{   
+  border: 1px solid #DAD9DB;
+  color: #555555;  
+}
+
+.pagination button, .pagination input[type=submit], .pagination input[type=reset], .pagination input[type=button], .pagination .button
+{
+    padding:0px;
+    padding-right: 3px;
+    padding-left: 3px;
+} 
+button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
+button:focus, input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
+button[selected], input[type=submit][selected], input[type=reset][selected], input[type=button][selected]
+{
+	color: #fff;
+	background-image: none;
+	cursor:pointer;
+	font-weight: normal;
+}
+
+/* set a minimum width for the header */
+#header
+{
+    background-color:#4D5A75;  
+    width: 100%;
+    height:100%;
+}
+
+/* header */
+#header div.line {
+height: 2px;
+	border-bottom: 2px solid;
+    color:#0046ad;
+}
+
+#sitemapLinkSpan,#dashletLinkSpan  
+{
+    border-right:1px solid #999;
+    border-right:none;   
+}
+#sitemapLinkSpan  
+{
+  float:right;
+}
+
+#search {
+  margin-top: 3px;
+  border: none;
+  float: left;
+  padding-left: 15px;
+  visibility: visible;
+  z-index: 2;
+}
+    
+
+
+/* DetailView/EditView/ListView styles */
+.view, .edit
+{
+  margin-bottom: 12px;
+  margin-top: 8px;
+}
+
+/* DetailView styles */
+
+.detail table,
+table.detail
+{
+    padding: 0;
+}
+
+.detail tr th
+{
+    border-bottom: 2px solid;
+    background: #fff;
+}
+
+/* Listview styles */
+
+.list tr.pagination td table td
+{
+    color:#666666;
+}
+
+.td_alt, .list tr th, .list tr td[scope=col], .edit .list tr th, .edit .list tr td[scope=col]
+{
+    border-left: none;
+    border-right: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;		
+    border-bottom: 1px solid #cccccc;
+    background: #FFFFFF;
+}
+
+.bd-center .list tr th
+{
+ border-top: 0px;
+}                             
+#pageContainer form {
+  border: 1px solid #CCC;
+  border-bottom:none;
+  padding-top: 8px;
+  padding-left: 8px;
+}
+
+/* module title */
+.moduleTitle 
+{
+    padding-bottom: 3px;
+    padding-top: 0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.moduleTitle > h2 > img
+{
+    display: none;
+}
+    
+/* for subpanel tabs */
+ul.subTabs
+{
+    padding: 4px 0;
+    margin: 0px 0 0 0;
+    border: none;
+    font: 12px Arial, Verdana, Helvetica, sans-serif;
+}
+ul.subTabs li
+{
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+.activeSubTab, 
+ul.subTabs li a.activeSubTab:link, 
+ul.subTabs li a.activeSubTab:visited, 
+ul.subTabs li a.activeSubTab:hover
+{
+    font-weight: bold;
+}
+ul.subTabs li a
+{
+    padding: 0 8px 0 8px;
+    margin: 0px;
+    border-right: 1px solid;
+    border-bottom: none;
+    text-decoration: none;
+}
+ul.subTabs li a:link, ul.subTabs li a:visited 
+{ 
+    text-decoration: none; 
+}
+.subTabMore 
+{
+    font-size: 11px;
+    text-decoration: none;
+    padding-top: 3px;
+}
+
+
+#submoduleList
+{
+  padding:0.4em 0 0.3em 1em;
+	border-bottom: none;
+	border-top: 2px solid;
+}
+#submoduleList span a
+{
+    text-decoration: none;
+    padding: 0.2em 0.5em 0.3em 0.5em;
+	margin: 0 -3px 0 0;
+	border-right: 1px solid;
+	border-left: 1px solid;
+	border-bottom: none;
+}
+
+/* last viewed and shortcuts lists in the header */
+.headerList
+{
+    border-bottom: 1px solid #E11718;
+}
+
+.headerList a:link, .headerList a:visited, .headerList a 
+{
+    text-decoration: none;
+    border-left:1px solid;
+}
+
+.headerList a:hover span
+{
+	text-decoration: underline;
+}
+/* for lists of items in the left column ( such as the shortcuts or last view items lists ) */	
+.leftList ul li
+{    
+    border-bottom: 1px solid;
+}
+
+/* left side column */
+#leftColumn 
+{
+    padding-right: 8px;
+    padding-top: 10px;
+}
+#leftColumn h3, #HideMenu h3
+{
+    padding-left: 3px;	
+    padding-top: 8px;
+    padding-bottom: 4px;
+	margin-bottom: 0;
+    border-bottom:2px solid;
+    color:#444;
+}
+
+/* hidden shortcuts menu */
+#HideMenu
+{
+    border-bottom: 2px #cccccc solid;
+    border-right: 2px #cccccc solid;
+    background: #ffffff;
+    left: 10px;
+    width: 150px;
+}
+    
+/* new record form */
+#newRecord form  
+{
+    border-bottom: 1px solid;
+}
+
+/* misc links */
+a.utilsLink:link, a.utilsLink:visited 
+{
+    font-weight: normal;
+    text-decoration: underline;
+    padding-bottom: 3px;
+}
+a.tabFormAdvLink:link, a.tabFormAdvLink:visited, a.tabFormAdvLink:hover 
+{
+    text-decoration: none;
+    line-height: 20px;
+    margin-right: 2px;
+}
+	
+/* global links */
+
+#globalLinks {
+    padding:0px 2px 3px;
+}
+#globalLinks ul 
+{
+    color: #ccc;
+}
+#globalLinks ul li a 
+{
+    color: #444444;
+    text-decoration: none;
+}
+#globalLinks ul li a:hover
+{
+    text-decoration: none;
+}
+#globalLinks ul li span
+{
+    color: #CCCCCC
+}
+
+
+/* themepicker */
+#themepickerLinkSpan a 
+{
+    color: #444444;
+}
+
+
+
+/* for subpanel tabs */
+ul.tablist, ul.subpanelTablist
+{
+    border-bottom:none;
+}
+ul.tablist li a, ul.subpanelTablist li a
+{
+    border: none;
+}
+ul.tablist li a:hover, ul.subpanelTablist li a:hover
+{
+   color:#E11718!important;
+   border:1px solid #ABC3D7;
+}
+
+ul.tablist li a.current, ul.tablist li a.current:hover 
+{
+  border-bottom:2px solid #f6f6f6;
+	font-weight: bold;
+}
+ul.subpanelTablist li a.current, ul.subpanelTablist li a.current:hover
+{
+    border-bottom:2px solid #fff;
+    font-weight: bold;
+}
+.subpanelTabForm .h3Row 
+{
+  border-top: 1px solid #dddddd;
+	background-image: none;
+}
+
+.subpanel_list .h3Row 
+{
+ margin-top:0px;
+}
+#subpanel_activities .view, table.view {
+  margin-bottom: 3px;
+  margin-top: -2px;
+  padding: 20px 16px 22px 30px;
+  width: 100%;
+  border: 1px solid #ABC3D7;
+}
+
+
+#selectLinkTop li
+{
+  background-color:transparent!important;
+}
+/*Bug 29945 */
+.pagination button {
+    border-color: #c1c1c1;
+    background-color: #f0f0f0;
+    color: #000;
+    background-image: url('../../../../index.php?entryPoint=getImage&imageName=bgBtnGray.gif');
+}
+
+.pagination button [title="Return to List"]:hover{
+    background-image:none;
+    color:#fff;
+}
+
+#colorPicker {
+    border-right:2px solid #DDDDDD;
+    padding:8px 4px 4px 0;
+    margin-right:1px;
+}
+
+#colorPicker span {
+    color:#cccccc;
+}
+
+#colorPicker #themepickerLinkSpan {
+    color:#444444;
+    text-decoration:underline;
+    font-size:12px;
+    font-weight:400;
+}
+
+#colorPicker #themepickerLinkSpan:hover {
+    color:#0B578F;
+}
+
+/* fonts */
+
+div 
+{
+	font-size: 12px;
+}
+table 
+{
+	font-size: 13px;
+}
+h1, h2 
+{
+	font-size: 16px; 
+}
+h3
+{
+	font-size: 18px;
+  font-weight:normal; 
+}
+h4, h5 
+{
+	font-size: 13px; 
+}
+input, select, textarea, checkbox {
+  color: #58595B;
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 7px !important;
+  position: relative;
+  z-index: 1;
+}
+
+/* YUI styles */
+.ygrid-row, 
+.ygrid-hd, 
+.ygrid-hd-body, 
+.ygrid-hd-body span    
+{
+    font-size: 8pt;
+}
+
+/* for the main screen navigation tabs */
+#submoduleList span
+{
+    font-size: 12px;
+}
+
+/* left column and the hidden list menu */
+#leftColumn h3, #HideMenu h3
+{
+    font-size: 12px;
+}
+
+/* for lists of items in the left column ( such as the shortcuts or last view items lists ) */
+.leftList ul 
+{
+    font-size: 11px;
+}
+		
+/*welcome user and date bar and last view*/
+#welcome, #search, #sitemapLink, #sitemapLink2, #globalLinks, #globalLinks a, #themepickerLinkSpan
+{
+    font-size: 12px;
+}
+
+#sitemapLink, #sitemapLink2
+{
+  background-color: #FFFFFF;
+  border: 1px solid #E11718;
+  margin-right: 7px;
+}
+#sitemapLink2 span
+{
+  padding-left:3px;
+  padding-right:3px;
+}
+
+#sitemapLink span
+{
+  padding-left:4px;
+  padding-right:4px;
+}
+
+#sitemapLink2 span ul li
+{
+padding-top:0px;
+}
+
+#sitemapLink2 span:hover,#sitemapLink2 span ul li:hover, #sitemapLink span:hover
+{
+  color:#fff;
+	background: #E11718;
+}
+
+
+/* side quickcreate */
+#newRecord form,
+#newRecord form button,
+#newRecord form input[type=submit],
+#newRecord form input[type=button],
+#newRecord form input[type=reset],
+#newRecord form .dataLabel,
+#newRecord form a:link,
+#newRecord form a:visited
+{
+    font-size: 11px;
+}
+	
+/* reports */
+.reportGroup1ByTable, 
+.reportGroupNByTable,
+.reportlistViewThS1, 
+.reportGroup1ByTableEvenListRowS1, 
+.reportGroupNByTableEvenListRowS1,
+.reportGroupByDataChildTablelistViewThS1,  
+.reportlistViewMatrixThS1, 
+.reportlistViewMatrixThS2, 
+.reportlistViewMatrixThS3, 
+.reportlistViewMatrixThS4, 
+.reportlistViewMatrixLeftEmptyData, 
+.reportlistViewMatrixRightEmptyData, 
+.reportlistViewMatrixRightEmptyData1
+{
+    font-size: 11px;
+}
+
+.reportevenListRowS1, 
+.reportoddListRowS1 , 
+.reportGroupByDataEvenListRowS1, 
+.reportGroupByDataOddListRowS1 , 
+.reportGroupByDataMatrixEvenListRowS1, 
+.reportGroupByDataMatrixEvenListRowS2, 
+.reportGroupByDataMatrixEvenListRowS3, 
+.reportGroupByDataMatrixEvenListRowS4,
+.reportDataChildtablelistView td
+{
+    font-size: 12px;
+}
+
+/* for all views */
+.view td span
+{
+    font-size: 16px;
+    font-weight: 500;
+}
+.view h4 {
+  background-color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.other td a, .detail td a
+{
+    font-size: 12px;
+}
+.subTabs td
+{
+    font-size: 12px;
+}
+
+/* for list views */
+
+
+/* misc links */
+a.utilsLink:link, 
+a.utilsLink:visited
+{
+    font-size: 11px;
+}
+a.tabFormAdvLink:link, 
+a.tabFormAdvLink:visited 
+{
+    font-size: 12px;
+}
+/* calendar styles */
+.monthBox,
+.monthCalBody td,
+.monthViewDayHeight a, 
+.monthHeader a, 
+.monthFooter a
+{
+    font-size: 12px;
+}
+
+.monthCalBodyWeek a
+{
+    font-size: 11px;
+}
+	 
+.monthCalBodyDayItem td a
+{
+    font-size: 10px;
+}
+
+/* misc font displays */
+.rssItemDate,
+.dateFormat,
+.chartFootnote 
+{
+    font-size: 11px;	
+}
+.tm
+{
+    font-size: 8px;
+}
+
+/* for subpanel tabs */
+ul.tablist, 
+ul.tablist li a,
+ul.subpanelTablist, 
+ul.subpanelTablist li a,
+.subpanelTabForm,
+.subpanelTabForm h3
+{
+    font-size: 12px;
+}
+.subTabMore 
+{
+    font-size: 11px;
+}
+
+/* for quick searches */
+.sqsMatchedSmartInputItem 
+{
+    font-size: 11px;
+}
+
+/* for overlib js library */
+.olCapFontClass A 
+{
+	font-size: 9px; 
+}
+
+/* sitemap */
+#sitemap a:link, #sitemap a:visited, #sitemap a:hover 
+{
+    font-size: 11px;
+}
+#sitemap h4 a:link, #sitemap h4 a:visited, #sitemap h4 a:hover 
+{
+    font-size: 13px;
+}
+
+/* for about page */
+.about, .about td, .about span
+{
+    font-size: 12px;
+}
+
+/* for edit view like forms that need a smaller font size */
+.edit.view.small td,.detail.view.small td
+{
+    font-size: 11px;
+}
+
+/* to make the reportwizard button text smaller */
+.reportwizard .buttonText
+{
+	font-size: 11px;
+}
+
+/* to fix the size of the fonts in the unified module search popup */
+#unified_search_advanced_div .edit.view td
+{
+    font-size: 11px;
+}
+
+/* overlib popups */
+.olCapFontClass div, .olFontClass
+{
+    font-size: 11px !important;
+}
+
+/* colors */
+
+
+h1, h2 {
+  color: #E11718;
+}
+
+h3,h4 {
+  color: #58595B;
+}
+
+
+h5
+{
+	color: #444;
+} 
+
+
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+button:hover, input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover,
+button:focus, input[type=submit]:focus, input[type=reset]:focus, input[type=button]:focus,
+button[selected], input[type=submit][selected], input[type=reset][selected], input[type=button][selected]
+{
+  background-color: #74BC48;
+}
+button[disabled], input[type=submit][disabled], input[type=reset][disabled], input[type=button][disabled]
+{
+	border-color: #c1c1c1;
+	background-color: #f0f0f0;
+	color: #000;
+	background-image: url('../../../../index.php?entryPoint=getImage&imageName=bgBtnGray.gif');
+}
+input,select 
+{
+	border-color: #94c1e8;
+	background-color: #ffffff;
+}
+
+input:focus,textarea:focus, select:focus 
+{
+	background-color: #fff;
+	border-color: #999999;
+}
+
+
+/* for team notices dashlet */
+.teamNoticeBox 
+{
+    border-color: #999999;
+    color: #444444;
+}
+
+/* header */
+#header div.line {
+    background-color:#E11718;
+	border-bottom-color: #0046ad;
+    color:#0046ad;
+}
+
+
+#submoduleList 
+{
+	background-color:#E11718;
+	border-color:#0046ad;
+}
+#submoduleList span a
+{
+	border-right-color:#0046ad;
+	border-left-color:#79a7d8;
+}
+#submoduleList span a:link, 
+#submoduleList span a:visited 
+{ 
+    color: #ffffff;
+}
+#submoduleList span a:hover
+{
+    background-color:#0046ad;
+	border-left-color:#0046ad;
+}
+
+/* lists in the header */
+.headerList 
+{
+  background-color: #F2F2F3;
+  color: #E11718;
+}
+
+.headerList a:link, 
+.headerList a:visited, 
+.headerList a 
+{
+    color: #444444;	
+    border-color: #CBDAE6;
+}
+#sitemapLink2 .cssmenulastview a
+{
+    display:block;
+}
+
+#sitemapLink2 .headerList a:hover
+{
+    color: #fff;	
+}
+/* for lists of items in the left column ( such as the shortcuts or last view items lists ) */
+.leftList ul, 
+.leftList ul li, 
+#newRecord form 
+{
+    background-color: #fff;
+    border-color: #cbdae6;
+}
+#leftColumn h3, #HideMenu h3 
+{
+    border-color: #999999;
+}
+.leftList ul li a:hover, 
+.leftList ul li span:hover  
+{
+    color: #000000;
+    background-color: #F0F6FC;
+}
+/* global links and theme picker */
+#globalLinks ul li a:hover, #themepickerLinkSpan a:hover
+{
+    color: #0b578f;
+}
+/* for subpanel tabs */
+ul.tablist li a.activeSubTab:hover
+{
+    border-bottom-color: #ddd;
+    color: #000000;
+}
+ul.subpanelTablist li a.activeSubTab:hover
+{
+    color: #000000;
+}
+                                                                                             
+
+/* new record form */
+#newRecord form a:link, 
+#newRecord form a:visited 
+{
+    color: #666666;
+}
+#newRecord form a:hover 
+{
+    color: #444444;
+}
+
+/* listviews */
+.list tr.pagination td table td a:link,
+.list tr.pagination td table td a:visited,
+.reportGroupByDataChildTablelistViewThS1 a:link,
+.reportGroupByDataChildTablelistViewThS1 a:visited,
+.list tr th,
+.list tr th a:link,
+.list tr th a:visited,
+.list tr td[scope=col],
+.list tr td[scope=col] a:link,
+.list tr td[scope=col] a:visited,
+{
+    color: #76777A;
+}
+
+.list
+{
+  border: 1px solid #CCC!important;
+}
+
+.dashletPanel .list
+{
+  border:1px solid #CCC;
+}
+
+.evenListRowS1 td, 
+.oddListRowS1 td
+{
+    color: #000000;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+/* detailviews */
+.detail table, 
+table.detail
+{
+  background-color: #FFF;
+    
+}
+
+
+.detail tr th 
+{
+    border-color: #cbdae6;
+}
+
+
+.detail tr td a:link,.detail tr td a:visited,.detail tr td a:hover 
+{
+font-size: 16px;
+}
+
+/* editviews */
+.edit td[scope=row]
+{
+    color: #444444;
+    padding-left: 15px !important;
+}
+
+#EditView hr{
+    border-color:#999999; 
+}
+
+.edit
+{
+    color: #000000;
+    background-color: #fff;
+}
+.detail .edit td
+{
+    background-color: #fff !important;
+    border-bottom: 0 !important;
+}
+
+/* other views */
+.other 
+{
+    border-color: #999999;
+    background-color: #BBBBBB;    
+}
+.other td
+{
+    color: #444444;
+    background-color: #ffffff;
+    border-left-color: #dfdfdf;
+}
+.other td[scope=row]
+{
+    color: #000000;
+    background-color: #fafafa;
+}
+.other td.edit
+{
+    color: #000000;
+    background-color: #f6f6f6;
+}
+
+/* misc links */
+
+a.tabFormAdvLink:link, a.tabFormAdvLink:visited 
+{
+    color: #444444;
+}
+
+/* calendar styles */
+.monthCalBody
+{
+	background-color: #FAFAFA;
+}
+.monthFooter td 
+{
+	border-top-color: #999999;
+	border-bottom-color: #999999;
+	background-color: #ffffff;
+}
+.monthHeader a:hover, 
+.monthViewDayHeight a:hover
+{
+	color: #0b578f;
+}
+.monthCalBodyTH th[scope=row], 
+.monthViewDayHeight td[scope=row] 
+{
+	background-color: #ebebeb;
+}
+.monthCalBodyTH th 
+{
+	background-color: #fafafa;
+	color: #444444;
+	border-color: #999999 !important;
+}
+.monthViewDayHeight td
+{
+	border-color: #999999;
+	background-color: #ffffff;
+	color: #444444;
+}
+.monthViewDayHeight td[class=weekEnd]
+{
+	background-color: #f6f6f6;
+}
+.monthCalBodyDayItem 
+{
+	background-color: #ffffff;
+	border-top-color: #999999;
+	border-bottom-color: #ddd;
+}
+.monthCalBody td 
+{
+	background-color: #fff;
+	color: #444444;
+}
+.monthCalBody th a
+{
+	color: #000000;
+}
+.yearCalBody 
+{
+	border: none;
+}
+.yearCalBodyMonth 
+{
+	background-color: #999999 !important;
+	border-top: 2px solid #4e8ccf;
+	border-bottom: 2px solid #fff;
+}
+.yearCalBody .monthHeader 
+{
+    border: none;
+}
+.yearCalBodyMonth #daily_cal_table 
+{
+	border-top: #999999;
+}
+.yearCalBodyMonth #daily_cal_table .monthCalBodyTHDay 
+{
+	border-color: #999999;
+}
+.yearCalBodyMonth > a
+{
+	color: #000000;
+}
+h5.calSharedUser 
+{
+	color: #444444;
+}
+.monthHeader 
+{
+    color: #444;
+    background-color: #fff;
+}
+
+/* for subpanel tabs */
+.subpanelTabForm
+{
+    border-color: #999999;
+    color: #000000;
+    background-color: #ffffff;
+}
+ul.tablist, ul.subpanelTablist
+{
+    border-bottom-color: #999999;
+}
+
+ul.tablist li a, 
+ul.subpanelTablist li a
+{
+    background-color: #fff;
+    border-color: #999999;
+}
+ul.tablist li a:link,ul.tablist li a:visited,ul.subpanelTablist li a:link,ul.subpanelTablist li a:visited 
+{ 
+    color: #444444;       
+    padding-bottom: 6px;
+    padding-top: 6px; 
+    font-size: 14px; 
+    margin-left: 6px;  
+}
+
+
+  color: #444444;
+  margin-left: 6px;
+  padding-top: 6px;
+  font-size: 16px;
+}
+
+ul.subpanelTablist li a.current, 
+ul.subpanelTablist li a.current:hover
+{
+    color: #4f4f4f;
+	background: #fff;
+    border-right-color: #999999;
+    border-top-color: #999999;
+    border-bottom-color: #fff;
+}
+
+ul.tablist li a.current:link, ul.tablist li a.current:visited, ul.tablist li a.current:hover
+{
+    background: #f6f6f6;
+    border-bottom-color: #f6f6f6;
+    border-right-color: #999999;
+    border-top-color: #999999;
+}
+
+#change_layout
+{
+    border: 0;
+}
+
+/* for overlib js library */
+.olCgClass td
+{
+	border-bottom-color: #999999;
+}
+.olBgClass 
+{
+	background-color: #999999;
+}
+
+/* sitemap */
+#sitemap .edit.view
+{
+    border-color: #4e8ccf !important;
+}
+
+/* for edit view like forms that need a smaller font size */
+.edit.view.small td
+{
+    color: #444;
+}
+
+/* YUI theme */
+.yui-dt th, .yui-dt-hd {
+    /*background: #D8D8DA url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') repeat-x 0 -30px;*/
+    background:#EBEBED none repeat scroll 0 0;
+}
+
+.yui-layout .yui-layout-unit-left div.yui-layout-hd .collapse
+{
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') no-repeat 0 -110px;
+}
+
+ .yui-layout .yui-layout-clip-left .collapse, .yui-layout .yui-layout-unit-right div.yui-layout-hd .collapse, 
+ .yui-layout .yui-layout-unit-bottom div.yui-layout-hd .collapse {
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') no-repeat 0 -90px;
+}
+
+ .yui-layout .yui-layout-clip-right .collapse {
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') no-repeat 0 -110px;
+}
+
+ .yui-layout .yui-layout-unit-top div.yui-layout-hd .collapse {
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') no-repeat -20px -220px;
+}
+
+ .yui-layout .yui-layout-clip-top .collapse {
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png')no-repeat -20px -240px;
+}
+
+ .yui-layout .yui-layout-clip-bottom .collapse {
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') no-repeat -20px -180px;
+}
+
+ .yui-layout .yui-layout-unit div.yui-layout-hd .close {
+    background: transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') no-repeat -20px -100px;
+}
+
+/*
+.yui-navset .yui-nav, .yui-navset .yui-navset-top .yui-nav, .yui-layout .yui-layout-hd {
+    background:#DDD url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') repeat-x scroll 0 0;
+    border-color: #ABC3D7;
+}
+*/
+
+
+.yui-layout .yui-layout-unit div.yui-layout-bd, .yui-navset .yui-navset-top .yui-content {
+	border-color:#999999;
+}
+
+.yui-navset {
+  clear: both;
+  margin-top: 8px;
+}
+.yui-content{
+    min-height:250px;
+}
+
+.yuimenuitem-hassubmenu > a{
+    background-image: url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png');
+}
+
+
+ .sugar-progress-bar, .yui-navset .yui-nav .selected a, .yui-navset .yui-nav .selected a:focus, .yui-navset .yui-nav .selected a:hover
+{
+    background:#666666 url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png') repeat-x scroll 0 -157px;
+    
+}
+
+
+
+
+ a.sugar-tab-close, .yui-navset .yui-nav a.sugar-tab-close, .yui-navset .yui-nav .selected a.sugar-tab-close {
+    background : transparent url('../../../../index.php?entryPoint=getImage&themeName=Sugar55&imageName=sugar-yui-sprites.png')  no-repeat scroll 0px -70px;
+ }
+ 
+
+#basic_search_link
+{
+    margin-left:6px !important;
+}
+
+.star {
+	float:right;
+	zoom: 1;
+	display: inline;
+}
+.moduleTitle .star 
+{
+    margin-top:4px;
+    padding-right:5px;
+}
+
+li div.star {float:none;}
+.star div {background-image:url('../../../../index.php?entryPoint=getImage&imageName=star-sheet.png');width:18px;height:18px;float:left;}
+.star div.on {background-position:0px 0px}
+.star div.off {background-position:0px -18px}
+.star div:hover {cursor:pointer;background-position:0px 0px;}
+
+#ajaxStatusDiv {
+  background : #ffffff;
+	color : #c60c30;
+	position : fixed;
+	opacity : .8;
+	filter : alpha(opacity=80);
+  z-index: 99999;
+  top: 7px;
+  border: 1px solid #74BC48;
+	padding: 5px;
+}
+
+div#chartDashlets
+{
+    overflow-y: auto;
+}
+
+
+/* miscellaneaous 508 classes */
+.detail508 tr td[scope="col"],.detail tr td[scope="row"]
+{
+    text-align: right;
+    white-space: nowrap;
+    vertical-align:middle;
+    border:none;
+    font-size:11px;
+    font-weight:500;
+}
+
+
+td.teamset-row, .edit tr td.teamset-row, .edit tr td table tr td.teamset-row {
+    padding: 5px !important;
+}
+
+
+/* AGGIUNTE */
+
+.actionsContainer {
+  clear: both;
+  height: 20px;
+  margin-bottom: 6px;
+  text-align: right;
+} 
+
+.actionsContainer td {
+  width: 100%;
+  padding-right: 4px;
+}
+.actionsContainer .buttons
+{
+  padding-bottom: 5px;
+  padding-left: 0;
+  height:30px;
+  text-align:left;
+  width: 100%;
+}
+
+
+.dcQuickEdit .buttons
+{
+  text-align:right;
+  width:100%;
+}
+div .buttons
+{
+  text-align:left;
+}
+ 
+.moduleTitle img
+{
+ display:none;
+}
+
+.moduleTitle .pointer
+{
+ display:none;
+}
+
+.moduleTitle .pointer
+{
+ display:none;
+}
+
+.moduleTitle a
+{
+  padding-right:10px;
+}
+
+.moduleTitle a:link,.moduleTitle a:visited {
+  color: #999999;
+  text-decoration: none;
+}
+
+
+.moduleTitle h2 {
+  color: #58595B;
+  font-size: 24px;
+}
+
+.notif_subpan
+{
+  clear: both;
+  color: #999999;
+  float: left;
+  font-style: italic;
+}
+
+#subpanel_list h3 {
+  color: #58595B;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.sugar-progress-bar, .yui-navset .yui-nav .selected a, .yui-navset .yui-nav .selected a:focus, .yui-navset .yui-nav .selected a:hover
+{
+  background: none repeat scroll 0 0 transparent;
+  border: 1px solid #ABC3D7;
+  border-bottom: 1px solid #FFF;
+  border-image: none;
+  height: 19px;
+  margin-bottom: -2px;
+}
+ 
+
+/*
+#lastView 
+{
+    display:none;
+}
+*/
+.quickcreate{
+margin-top:5px;
+}
+
+ul.cssmenulastview {
+  background-color: #FFFFFF;
+  border: 1px solid #999999;
+  display: block;
+  font: 12px Arial,Verdana,Helvetica,sans-serif;
+  margin-left: -7px;
+  position: absolute;
+  visibility:hidden;
+  padding-left:0px;
+  z-index: 200;
+}
+
+.cssmenulastview li {
+  display: block;
+  float: none !important;
+  font-size: 11px !important;
+  font-style: normal;
+  font-weight: normal !important;
+  line-height: 25px;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.sitemapLink2 .cssmenulastview li span{
+padding-top:0!important;
+padding-bottom:0!important;
+}            
+
+#shortcuts ul li {
+  display: block; 
+}
+
+
+
+#shortcuts {
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 14px;
+  min-height:17px;
+}
+
+
+#lastviewed,#lastactions
+{
+    font-size:12px;
+    font-weight:700;
+    float:right;
+    border-top:0px solid;
+    background-color:#FFF;
+    color:#444444;
+}
+
+#lastviewed ul li,#lastactions ul li {
+  display: block; 
+}
+
+  
+#lastviewed,,#lastactions
+{
+    font-size:12px;
+    font-weight:700;
+    padding-top:4px;
+}
+ 
+#submoduleList span
+
+#submoduleList span
+{
+    height:20px;
+    font-size:14px;
+    font-weight:700;
+}
+
+
+.listViewThLinkS1 img
+{
+   margin-left:-5px;
+}
+
+th, 
+th a:link,
+th a:visited,
+th a:hover
+{
+  color: #76777A;
+}
+
+#EditView
+{
+  margin-left:auto;
+  margin-right:auto;
+  width:100%;
+  clear:both;
+}
+
+#edit_button, #SAVE,#SAVE_HEADER,#SAVE_FOOTER
+{     
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 12px;
+  font-weight: 500;
+  margin-left: 8px;
+  background-color: #74BC48;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  color: #FFFFFF;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  padding:4px;
+}
+
+button, input[type=submit], input[type=reset], input[type=button], .button
+{
+  margin-left: 8px;
+  background-color: #F0F0F0;
+  color: #444444;
+  padding:5px;
+
+}
+
+#CANCEL_HEADER,  #CANCEL_HEADER:hover,
+#CANCEL_FOOTER,  #CANCEL_FOOTER:hover
+{
+    border: medium none;
+    color: #4398EC;
+    text-decoration: none;
+    font-size: 11px;
+    background-color: transparent;
+    box-shadow: medium none;
+    background-image: none;
+}
+
+
+
+#edit_button:hover, #SAVE:hover,#SAVE_HEADER:hover,#SAVE_FOOTER:hover
+{
+}                         
+
+#delete_button
+{
+background-image: none;
+}
+
+
+#delete_button:hover
+{
+background-color:#999999;
+border-color: #999999;
+color:#FFFFFF;
+} 
+
+
+
+
+ul.cssmenumain {
+  background-color: #669DD6;
+  border-color: #0046AD;
+  border: 1px solid #999999;
+  display: block;
+  font: 12px Arial,Verdana,Helvetica,sans-serif;
+  margin-top: 10px;
+  margin-left:0px;
+  position: absolute;
+  visibility:hidden;
+  padding-left:0px;
+  z-index: 200;
+  width:130px;
+}
+
+.cssmenumain li {
+  border-bottom: 1px solid #C0C0C0;
+  float: none !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: normal !important;
+  line-height: 18px;
+  margin: 0px;
+  padding: 3px 0px !important;
+  display: block;
+  width:130px;
+  
+}
+
+
+#cssmainmanuheader ul li{
+  color: #FFFFFF;
+  margin-left:10px;
+}
+
+#cssmainmanuheader ul li a:link, #cssmainmanuheader ul li a:visited{
+  color: #FFFFFF;
+  font-weight:700;
+}
+
+#cssmainmanuheader ul li a:hover{
+  color: #FFFFFF;
+  font-weight:700;
+}
+
+#cssmainmanuheader {  
+  font-size: 14px;
+}
+
+
+#cssmainmanuheadernosel ul li{
+  color: #000000;
+  margin-left:10px;
+}
+
+#cssmainmanuheadernosel ul li a:link, #cssmainmanuheadernosel ul li a:visited{
+  color: #000000;
+  font-weight:700;
+}
+
+#cssmainmanuheadernosel ul li a:hover{
+  color: #000000;
+  font-weight:700;
+}
+
+#cssmainmanuheadernosel {  
+  font-size: 14px;
+}
+
+
+
+
+
+ul.cssmenumainnosel {
+  background-color: #F6F6F6;
+  border-color: #0046AD;
+  border: 1px solid #999999;
+  display: block;
+  font: 12px Arial,Verdana,Helvetica,sans-serif;
+  margin-top: 10px;
+  margin-left:0px;
+  position: absolute;
+  visibility:hidden;
+  padding-left:0px;
+  z-index: 200;
+  width:130px;
+}
+
+.cssmenumainnosel li {
+  border-bottom: 1px solid #C0C0C0;
+  float: none !important;
+  font-size: 14px !important;
+  font-style: normal;
+  font-weight: normal !important;
+  line-height: 18px;
+  margin: 0px;
+  padding: 3px 0px !important;
+  display: block;
+  width:130px;
+  
+}
+
+.grigio
+{
+border:0px solid;
+background-color:#F6F6F6;
+}
+
+
+
+
+/* Main menu settings */
+#moduleList {
+  clear: both;
+  float: left;
+  font-size: 120%;
+  height: 29px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+/* Top menu items */
+#moduleList ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+	position:relative;
+	right:auto;
+
+}
+
+#moduleList ul li {
+  float: left;
+  left: auto;
+  margin-left: 10px;
+  margin-top: -3px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  position: relative;
+  background-color: transparent!important;
+}
+#moduleList ul ul li:first-child a {
+  border-top: 1px solid #CCC;
+}
+#moduleList ul ul li:last-child a {
+  border-bottom: 1px solid #CCC!important;
+}
+
+#moduleList ul li a {
+  color: #DDD;
+  display: block;
+  font-size: 13px;
+  margin: 0;
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+  padding-top: 0.6em;
+  height:21px;
+}
+#moduleList ul li ul li a {
+   height:auto;
+}
+#moduleList ul li.active a {
+  border-bottom: 3px solid #A0B6E5;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+#moduleList ul li.active ul li a {
+  border-bottom: none;
+}
+#moduleList ul li:hover a,
+#moduleList ul li.hover a { /* This line is required for IE 6 and below */
+	color:#FFF;
+  text-decoration: none;
+}
+
+
+#ulmore,#ulrecents,#ultasks
+{
+ position:relative!important;
+ display: none;
+ margin-left:0px!important;
+ background-color:transparent!important;
+}
+
+
+/* Submenu items */
+#moduleList ul ul {
+  display: none;
+  float: left;
+  position: absolute;
+  right: auto;
+  top: 26px;
+  width:auto;
+  z-index:10000;  
+}    
+   
+/* Submenu items */
+#tasks {
+  overflow-x:hidden;
+  max-height:460px;
+}    
+
+#moduleList ul ul li {
+  clear: left;
+  float: left;
+  left: auto;
+  margin: 0;
+  width: 100%;
+  z-index: 1000;
+  min-width: 130px;
+}
+
+#moduleList ul ul li a,
+#moduleList ul li.active li a,
+#moduleList ul li:hover ul li a,
+#moduleList ul li.hover ul li a { /* This line is required for IE 6 and below */
+	background-color:#FFF;
+	color:#343433;
+	line-height:1em; /* overwrite line-height value from top menu */
+	float:left;
+	width:100%;
+	padding-right:10px;
+  border-left:1px solid #CCC;
+  border-right:1px solid #CCC;
+}
+
+#moduleList ul ul li a:hover,
+#moduleList ul li.active ul li a:hover,
+#moduleList ul li:hover ul li a:hover,
+#moduleList ul li.hover ul li a:hover { /* This line is required for IE 6 and below */
+	background:#E5E5E5; /* Sub menu items background colour */
+	float:left;
+}
+
+#ulrecents img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+/* Flip the last submenu so it stays within the page */
+#moduleList ul ul.last {
+	left:auto; /* reset left:0; value */
+	right:0; /* Set right value instead */
+}
+#moduleList ul ul.last li {
+	float:right;
+	position:relative;
+	right:.8em;
+}
+
+/* Make the sub menus appear on hover */
+#moduleList ul li:hover ul,.iconmore:hover #ulmore,.iconrecents:hover #ulrecents,#notifications:hover #ultasks
+{ /* This line is required for IE 6 and below */
+	display:block; /* Show the sub menus */
+}
+
+
+
+.notif_d
+{
+float:right;
+color:#999;
+font-style:italic;
+}
+
+
+.notif_n
+{
+float:left;
+}
+
+.subpl {
+  background-color: #FFFFFF;
+  border: 1px solid #7D8CAB;
+  color: #7D8CAB;
+  font-size: 14px;
+  height: auto;
+  left: -282px;
+  position: absolute;
+  top: 17px;
+  width: 330px;
+  z-index: 99;
+}
+
+.subpl a, .subpl a:hover,
+{
+color:#666;
+}
+
+
+
+#ultasks
+{
+  top:2px!important;
+  text-align:left;
+}
+#ultasks li a 
+{
+ padding:10px!important;
+}
+
+#moduleList ul ul a {
+  padding:6px 8px 8px;
+}
+
+
+
+#moduleList ul ul li > a {
+  padding: 8px 10px;
+  white-space:nowrap;
+}
+
+
+
+#ajaxHeader
+{
+padding-top:4px;
+}
+
+#ajaxStatusDiv 
+{
+    margin-top:47px;
+}
+#add_dashlets 
+{
+    display:none;
+} 
+
+#pageContainer 
+{
+    margin-top: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+} 
+
+#dashletLinkSpan
+{
+float:right;
+visibility:hidden;
+width:1px;
+padding-right:0px !important;
+}
+
+.activesubpanel{
+  color:#E11718 !important;
+  font-weight:700;
+  border:1px solid #ABC3D7!important;
+}
+
+#spanglobalLinks {
+  cursor: pointer;
+}
+
+
+
+.list tr td {
+  padding: 3px 8px 5px 5px !important;
+  vertical-align: middle;
+}
+
+tr.oddListRowS1 {
+ /* background: none repeat scroll 0 0 #FAF6FA;  */
+}
+
+.list tr.oddListRowS1 td, .list tr.evenListRowS1 td {
+  white-space: normal;
+  word-wrap: break-word;
+}
+.previewcolor td{
+ /* background: none repeat scroll 0 0 #D5E2ED;  */
+  color: #fff!important;     
+  background-color:#10589C!important;  
+}
+
+
+.evenListRowS1:hover td, .oddListRowS1:hover td{
+ /* background: none repeat scroll 0 0 #D5E2ED;  */     
+  background-color:#F0F3F9;
+     
+}
+
+.previewcolor a{
+   color: #fff;    
+}
+
+.previewcolor .subpl a,.evenListRowS1:hover td .subpl a:link, .oddListRowS1:hover td .subpl a:link{
+   color: #7D8CAB;    
+}
+
+#previewrow td,#previewsupanelrow td {
+   background-color:#F0F3F9;  
+   border-left:2px solid #10589C;
+   border-right:2px solid #10589C; 
+}
+#previewsupanelrow td {  
+   border-bottom:2px solid #10589C; 
+}
+
+
+
+.evenListRowS1 td, .oddListRowS1 td {
+  color: #666666;
+}
+
+.primacol
+{
+width:30%;
+}  
+
+#actions_link
+{
+color:#999999;
+}
+
+.loginBox {
+    padding: 20px;
+}
+
+#cal-grid .today {
+  background-color: #E11718!important;
+  color:#FFF!important;  
+}
+
+#cal-grid .today a:link,
+#cal-grid .today a:visited
+{
+  color:#FFF!important;  
+}
+#cal-grid {
+  background-color: #FFFFFF!important;  
+}
+#btn_parent_name,
+#btn_clr_parent_name
+ {
+  background-color: #D2D2D3;
+}
+
+.list th div
+{
+white-space: nowrap !important;
+}
+
+#sitemapLink,#subpanel_list, #subpanel_list .utilsLink
+{
+visibility:hidden;
+}
+
+#subpanel_list .view td span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.button img {
+  background-color: #FFFFFF;
+  background-size: auto auto;
+  border: 1px solid #D2D2D3;
+  margin: -6px -10px;
+  padding: 3px 10px 2px;
+  z-index: -9999;
+}
+.email .button img
+{
+  margin:0;
+  padding:0;
+}
+
+.diveasyreportlink
+{
+float:left;
+}
+
+#search_form
+{
+display:none;
+}
+.form_show
+{
+display:block!important;
+}
+
+#shortcuts  span  img,#unified_search_advanced_img,#create_link
+{
+display:none;
+}
+
+#toolbareasytheme {
+  margin-top:20px;
+}
+/* riga 619    */
+.collapsed .panelContainer, .collapsed .collapseLink, .expanded .expandLink { display:none; }
+
+/* riga 843 */
+.list td.inlineButtons {
+	text-align: right;
+	min-width: 75px;	
+}
+
+/* alla fine  */
+
+/* competible for SugarActionMenu */
+
+ul.clickMenu {
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0 !important;
+	vertical-align: bottom;
+  color: #555555;
+	display: inline-block;
+}
+
+
+ul.clickMenu #edit_button
+{
+color:#FFFFFF!important;
+border:none;
+}
+
+ul.clickMenu form{
+	float:left;
+	display:block;
+}
+ul.SugarActionMenuIESub {
+}
+
+
+ul#globalLinksSubnav.SugarActionMenuIESub li a:hover, ul#quickCreateULSubnav.SugarActionMenuIESub li a:hover,
+ul.clickMenu:hover > li > span > a, ul.clickMenu:hover > li > a {
+	/*color: #fff !important;*/
+}
+
+ul.clickMenu li, ul.SugarActionMenuIESub li {
+	float: left;
+	margin: 0;	
+	padding: 0 0 0 0;
+	list-style: none;
+	position: relative; /*--Declare X and Y axis base--*/
+  cursor: pointer;
+  background-color: #74BC48;
+  color:#FFF;
+}
+ 
+ul.SugarActionMenuIESub li a,
+ul.clickMenu li a, .list tr.pagination td.buttons ul.clickMenu > li > a:link, .list tr.pagination td.buttons ul.clickMenu > li > a{
+  color: #fff;
+  display: block;
+  font-weight: normal!important;
+  line-height: 18px;
+  margin: 0;
+  padding: 5px 10px;
+  width:auto;
+  white-space: nowrap;
+	float: left;
+	font-size: 12px;
+}
+
+
+.subnav > li > a
+{
+  background-color: #FFF;
+  padding: 8px 10px;
+}
+
+.list tr.pagination td.buttons ul.clickMenu:hover > li > a:link, .list tr.pagination td.buttons ul.clickMenu:hover > li > a{		
+	color: #fff;
+	background-color:#E11718;
+}
+
+ul.clickMenu li.single a{ 
+	padding-right: 8px !important;	
+}
+
+ul.clickMenu li a:hover{
+text-decoration: none !important;
+}
+ul.clickMenu li span { /*--Drop down trigger styles--*/
+	width: 22px;
+	height: 28px;
+	float: left;
+	cursor: pointer;
+  background: url('../../../../index.php?entryPoint=getImage&imageName=actionMenuArrow.png') no-repeat 6px 7px;
+  background-color: #74BC48; 
+  margin-top: -3px;   
+} 
+
+#selectLinkTop li span { /*--Drop down trigger styles--*/
+	height: 16px;
+  background: url('../../../../index.php?entryPoint=getImage&imageName=actionMenuArrow.png') no-repeat 6px -28px;
+  background-color: transparent;    
+    
+}                                                                                                       
+
+.listViewBody
+{
+  overflow-x:hidden;
+  overflow-y:auto;      
+}           
+ul.clickMenu li span.ab { /*--Drop down trigger styles--*/
+    border-left: 0px #aaa solid;
+    /* Remove the padding, not needed when we select records */
+    /* padding-left: 5px; */
+}
+ul.clickMenu li span.subhover {
+	cursor: pointer;
+	} /*--Hover effect for trigger--*/
+
+ul.clickMenu li ul.subnav, ul.clickMenu ul.subnav-sub, ul.SugarActionMenuIESub {
+  background-clip: padding-box;
+  background-color: #FFFFFF;
+  display: none;
+  float: left;
+  list-style: none outside none;
+  margin: 2px 0 0;
+  padding: 5px 0;
+  position: absolute;
+  top: 100%;
+  z-index: 1000;
+  padding: 0;
+  font-size: 12px;                               
+}
+
+.paginationActionButtons ul.clickMenu li ul.subnav
+{
+left: 0px;
+}
+
+.actionsContainer ul.clickMenu li ul.subnav
+{
+  right: 0;
+  text-align: left;
+  margin-right: 10px;
+}
+.inlineButtons ul.clickMenu li ul.subnav
+{
+ left:-14px;
+}
+
+ul.clickMenu li ul.subnav li, ul.clickMenu ul.subnav-sub li, ul.SugarActionMenuIESub li{
+	margin: 0; 
+	clear: both;
+	/*width: 170px;*/
+	width:100%;
+	white-space: nowrap;
+}      
+ul.clickMenu.subpanel.records {
+	background-color: #eee;
+	border: 1px solid #ddd;	
+	background-image: none;
+}
+
+/*
+ul.clickMenu.subpanel.records:hover {
+	background-color: #4e8ccf !important;
+	background-image: none !important;
+	border-color: #4e8ccf !important;
+}
+*/
+
+
+
+ul.clickMenu.subpanel.records li > span{ 
+    height: 16px;
+    width: 17px;
+    padding:0 5px 0 0 !important;
+    background-position: 50% 6px;
+}
+
+ul.clickMenu.subpanel.records li ul.subnav li a span {
+	height: 0px;
+	width: 0px;
+	background-image: none;
+}
+
+ul.clickMenu.button li > span {
+	width: auto;
+	background-position: 50% -20px;
+	padding: 3px 15px 3px 10px !important;
+	height: auto;
+}
+
+
+ul.clickMenu.button li > span a {
+	padding: 0px !important;
+}
+
+ul.clickMenu.button span {
+	padding-right: 5px;
+}
+
+ul.clickMenu.button li ul.subnav {
+	width: auto;	
+}
+
+ul.clickMenu li a.disabled {
+    color:gray !important;
+    cursor:default !important;
+}
+
+.oddListRowS1:hover td ul.clickMenu.subpanel.records , .evenListRowS1:hover td ul.clickMenu.subpanel.records {
+		background-image: -moz-linear-gradient(center top, 
+		#ffffff 0%,
+		#eeeeee 10%,
+		#dfdfdf 100%
+		);
+		background-image: -webkit-gradient(
+	    linear,
+	    left top,
+	    left bottom,
+	    color-stop(0, #ffffff),
+	    color-stop(.10, #eeeeee),
+	    color-stop(1, #dfdfdf)
+	   );	
+	   border: 1px solid #AAAAAA;
+}
+
+
+.oddListRowS1:hover td ul.clickMenu.subpanel.records li span, .evenListRowS1:hover td ul.clickMenu.subpanel.records li span {
+	opacity: 1;
+}
+
+
+ul.clickMenu li.sugar_action_button ul.subnav li form {
+ width:100%;
+}
+
+ul.clickMenu li ul.subnav li input {
+  border: 0px;
+  margin-left: 0px;
+  padding: 4px;
+  text-align: left;
+  width: 100%;
+}
+
+#div_recordactions li a:hover,#div_recordtasks li a:hover, ul.SugarActionMenuIESub li a:hover,
+ul.clickMenu li ul.subnav li a:hover,ul.clickMenu li ul.subnav li input:hover, ul.clickMenu.subpanel.records li ul.subnav li a:hover, ul.clickMenu ul.subnav-sub li a:hover { /*--Hover effect for subnav links--*/
+background-color: #F0F0F0; 
+color: #E11718; 
+font-weight: normal !important;
+font-size: 12px !important;
+cursor: pointer;                     
+text-shadow: none;
+}
+
+td.paginationActionButtons ul.clickMenu .massall,
+ul#selectLink.clickMenu .massall, td.selectCol .massall{
+	float: left;
+	margin: 2px 0 0 4px;
+}
+
+td.paginationActionButtons ul.selectmenu > li > a, td.selectCol ul.selectmenu > li > a, ul#selectLink.clickMenu > li > a {
+	padding: 0px !important;
+}
+ul.clickMenu.showLess .moreOverflow , ul.clickMenu.showLess .moduleMenuOverFlowLess, ul.clickMenu.showMore .moduleMenuOverFlowMore {
+	display:none;
+}
+
+#globalLinksDivider {
+	float: right;
+	margin-right: 0px;	
+}
+
+ul#globalLinks.clickMenu {
+	background: none;
+	border: 0px none;
+	padding-right: 0px;
+
+}
+
+ul#globalLinks.clickMenu li > span {
+	height: 43px;
+	background-image: url("../../../../index.php?entryPoint=getImage&themeName=Sugar5&imageName=tabDownArrowOff.png");
+	background-position: right center;
+	width: auto;
+	margin-right: 10px;
+    padding-right: 8px;
+}
+
+ul#globalLinks.clickMenu li > span a {
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-top: 13px;
+	padding: 0px 10px !important;
+}
+
+
+ul#globalLinks.clickMenu li ul.subnav {
+	top: 43px;
+	right: 0px;
+	left: auto;
+}
+
+ul#globalLinks.clickMenu > li > a {
+	color: #fff;
+	font-size: 14px;
+    padding: 14px 7px !important;	
+}
+
+ul#selectLink.clickMenu {
+	height: 17px;
+	min-width: 20px;
+	background-image: none;
+}
+
+td.paginationActionButtons ul.clickMenu #massall,
+ul#selectLink.clickMenu #massall{
+	float: left;
+	margin: 1px 4px;
+}
+.selectActions.clickMenu {
+    display: none;
+}
+
+ul.clickMenu.show {
+    display:inline-block;
+}
+
+ul#selectLink.clickMenu > li > a{
+	padding-left: 0px !important;
+}
+
+ul#selectLink.clickMenu li span {
+	height: 17px;
+}
+
+ul#selectLink.clickMenu li ul.subnav {
+
+}
+
+ul#detailViewActions.clickMenu {
+	margin-top: 2px !important;
+}
+
+#selectActions.clickMenu {
+	display: none;
+}
+
+.selectActionsDisabled {
+	display: inline-block;
+	background-color: ##FFFFFF;
+	border: 1px solid #ddd;	 
+	vertical-align: bottom;
+	padding: 0 3px 0 10px;
+}
+
+.selectActionsDisabled span {
+	width: 17px;
+	height: 17px;
+	float: left;
+	background: url("../../../../index.php?entryPoint=getImage&themeName=Sugar5&imageName=actionMenuArrow.png") no-repeat 6px -28px;
+	opacity: .5;   
+	}
+
+.selectActionsDisabled span.ab {
+    border-left: 1px #ccc solid;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.selectActionsDisabled a, #selectActionsDisabled a:hover {
+	float: left;
+	display: block;
+	text-decoration: none !important;
+	color: #999 !important;
+	padding: 1px 0px 0px 0px!important;
+	text-shadow: 1px 1px #FFFFFF;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+#quickCreate {
+	float: right;	
+}
+
+#quickCreate ul.clickMenu {
+	background: none;
+	border: 0px none;
+	padding-right: 0px;
+
+}
+
+
+#quickCreate ul.clickMenu > li {
+	width: 50px;
+	height: 43px;
+
+}
+#quickCreate ul.clickMenu li > span {
+	background:  url("../../../../index.php?entryPoint=getImage&themeName=Sugar5&imageName=quick-create.png") no-repeat scroll center center;
+	height: 43px;    
+	width: 50px;
+}
+
+#quickCreate ul.clickMenu > li:hover {
+	background-color: #276499;
+}
+ul#globalLinksSubnav li { min-width: 120px;}
+ul#globalLinksSubnav, ul#quickCreateULSubnav,
+#quickCreate ul.clickMenu li ul.subnav, #globalLinksModule ul.clickMenu li ul.subnav{
+	top: 43px;
+	right: 0;
+	left: auto;
+	padding: 10px 0px;
+	border: 1px solid #999;
+	width: 100%;
+}
+
+#quickCreate ul.clickMenu li ul.subnav {
+	width: auto;		
+}
+
+#globalLinksSubnav li a, #quickCreateULSubnav li a,
+#quickCreate ul.clickMenu li ul.subnav li a, #globalLinksModule ul.clickMenu li ul.subnav li a {
+	padding: 4px 10px !important;  
+	font-size: 13px !important;
+	color: #666666 !important;
+	line-height: 1.45;
+}
+#quickCreateULSubnav li.moduleMenuOverFlowLess a, #quickCreateULSubnav li.moduleMenuOverFlowMore a,
+#quickCreate ul.clickMenu li ul.subnav li.moduleMenuOverFlowMore a, #quickCreate ul.clickMenu li ul.subnav li.moduleMenuOverFlowLess a {
+	color: #999 !important;
+}
+
+#quickCreate ul.clickMenu li ul.subnav li a:hover, #globalLinksModule ul.clickMenu li ul.subnav li a:hover, #quickCreate ul.clickMenu li ul.subnav li.moduleMenuOverFlowMore a:hover, #quickCreate ul.clickMenu li ul.subnav li.moduleMenuOverFlowLess a:hover {
+	color: #fff !important;
+}
+
+ul.clickMenu li ul.subnav li a:hover .showLessArrow, ul.clickMenu li ul.subnav li a:hover .showMoreArrow {
+	background-position: center 8px;
+	opacity: 1;
+}
+
+#quickCreate ul.clickMenu li ul.subnav li.moduleMenuOverFlowMore a img, #quickCreate ul.clickMenu li ul.subnav li.moduleMenuOverFlowLess a img
+{
+	opacity: .6;
+}
+
+div.action_buttons form {float:left;}
+.paginationWrapper { float:right; }
+
+
+.info {
+  cursor: pointer;
+  border:1px solid #7D8CAB;
+}
+
+#moduleDashletsList table {
+  font-size: 12px;
+}
+
+#toptools
+{
+
+  height: 27px;
+  float: right;
+  border: none;
+  margin-top: -3px;
+  visibility: visible;
+  z-index: 2;
+  position:absolute!important;
+  right:0px;
+  top:0px;
+}
+
+#companylogo
+{
+ margin-top:-10px;
+}
+
+  
+#hack .view td span, #hack .view td, #hack .view th span {
+  font-size: 12px;
+  white-space: nowrap;
+  border:none;
+}
+
+#reportRows
+{
+background-color:transparent;
+}

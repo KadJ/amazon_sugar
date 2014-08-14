@@ -1,0 +1,61 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/custom/Extension/modules
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-05-06T12:22:06.947575Z
+18
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+AOS_PDF_Templates
+dir
+
+Calls
+dir
+
+Contacts
+dir
+
+Accounts
+dir
+
+Users
+dir
+
+Configurator
+dir
+
+Campaigns
+dir
+
+lm_FaxMan
+dir
+
+Opportunities
+dir
+
+Administration
+dir
+
+Project
+dir
+

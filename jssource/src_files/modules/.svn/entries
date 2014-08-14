@@ -1,0 +1,94 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/jssource/src_files/modules
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-04-08T18:34:20.771895Z
+4
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+Accounts
+dir
+
+MergeRecords
+dir
+
+EAPM
+dir
+
+Administration
+dir
+
+Home
+dir
+
+Leads
+dir
+
+ProjectTask
+dir
+
+Schedulers
+dir
+
+Documents
+dir
+
+Users
+dir
+
+Currencies
+dir
+
+Campaigns
+dir
+
+ACLRoles
+dir
+
+InboundEmail
+dir
+
+Project
+dir
+
+EmailTemplates
+dir
+
+Studio
+dir
+
+UpgradeWizard
+dir
+
+Calendar
+dir
+
+Meetings
+dir
+
+Connectors
+dir
+
+Contacts
+dir
+

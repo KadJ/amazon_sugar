@@ -1,0 +1,159 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/custom/modules
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-06-25T05:55:53.910016Z
+23
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+Users
+dir
+
+Schedulers
+dir
+
+Campaigns
+dir
+
+lm_FaxMan
+dir
+
+Campaings
+dir
+
+Configurator
+dir
+
+EmailTemplates
+dir
+
+Project
+dir
+
+Emails
+dir
+
+unified_search_modules_display.php
+file
+
+
+
+
+2013-04-11T11:28:52.058049Z
+af7ab986f9c20288b8723c2c2b5844e1
+2013-04-08T17:35:14.718392Z
+1
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+965
+
+Connectors
+dir
+
+Contacts
+dir
+
+Accounts
+dir
+
+Prospects
+dir
+
+Opportunities
+dir
+
+Administration
+dir
+
+Asterisk
+dir
+
+logic_hooks.php
+file
+
+
+
+
+2013-04-11T11:28:52.058049Z
+4188f8b9fbbf5e5b835c453470a18681
+2013-04-08T17:35:14.718392Z
+1
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+639
+
+Leads
+dir
+
+ProjectTask
+dir
+
+AOS_PDF_Templates
+dir
+
+Calls
+dir
+
+Cases
+dir
+

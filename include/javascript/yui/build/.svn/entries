@@ -1,0 +1,202 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/include/javascript/yui/build
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-04-08T17:42:54.534995Z
+2
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+dragdrop
+dir
+
+assets
+dir
+
+profilerviewer
+dir
+
+menu
+dir
+
+event-mouseenter
+dir
+
+reset-fonts
+dir
+
+imageloader
+dir
+
+cookie
+dir
+
+json
+dir
+
+utilities
+dir
+
+yahoo-dom-event
+dir
+
+swfstore
+dir
+
+layout
+dir
+
+animation
+dir
+
+datatable
+dir
+
+slider
+dir
+
+paginator
+dir
+
+editor
+dir
+
+datemath
+dir
+
+swfdetect
+dir
+
+element
+dir
+
+fonts
+dir
+
+event-delegate
+dir
+
+yuiloader-dom-event
+dir
+
+treeview
+dir
+
+autocomplete
+dir
+
+resize
+dir
+
+event-simulate
+dir
+
+storage
+dir
+
+yuitest
+dir
+
+grids
+dir
+
+calendar
+dir
+
+base
+dir
+
+button
+dir
+
+uploader
+dir
+
+colorpicker
+dir
+
+carousel
+dir
+
+imagecropper
+dir
+
+logger
+dir
+
+get
+dir
+
+yahoo
+dir
+
+reset-fonts-grids
+dir
+
+dom
+dir
+
+selector
+dir
+
+event
+dir
+
+profiler
+dir
+
+container
+dir
+
+reset
+dir
+
+charts
+dir
+
+progressbar
+dir
+
+stylesheet
+dir
+
+datasource
+dir
+
+yuiloader
+dir
+
+swf
+dir
+
+connection
+dir
+
+history
+dir
+
+tabview
+dir
+
+element-delegate
+dir
+

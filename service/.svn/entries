@@ -1,0 +1,55 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/service
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-04-08T18:34:20.771895Z
+4
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+v2
+dir
+
+v2_1
+dir
+
+core
+dir
+
+v3
+dir
+
+v3_1
+dir
+
+v4
+dir
+
+v4_1
+dir
+
+example
+dir
+
+utils
+dir
+

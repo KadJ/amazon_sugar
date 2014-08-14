@@ -1,0 +1,43 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/upload/upgrades
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-04-11T12:46:16.718976Z
+9
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+module
+dir
+
+patch
+dir
+
+langpack
+dir
+
+full
+dir
+
+theme
+dir
+

@@ -1,0 +1,226 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/jssource/src_files/include/javascript/yui3/build
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-04-08T18:34:20.771895Z
+4
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+scrollview
+dir
+
+collection
+dir
+
+plugin
+dir
+
+attribute
+dir
+
+widget-anim
+dir
+
+cookie
+dir
+
+sortable
+dir
+
+datatype
+dir
+
+test
+dir
+
+dom
+dir
+
+slider
+dir
+
+compat
+dir
+
+editor
+dir
+
+recordset
+dir
+
+node-focusmanager
+dir
+
+escape
+dir
+
+tabview
+dir
+
+history
+dir
+
+autocomplete
+dir
+
+resize
+dir
+
+event-simulate
+dir
+
+yql
+dir
+
+yui
+dir
+
+loader
+dir
+
+io
+dir
+
+imageloader
+dir
+
+dial
+dir
+
+base
+dir
+
+substitute
+dir
+
+simpleyui
+dir
+
+event-gestures
+dir
+
+text
+dir
+
+jsonp
+dir
+
+stylesheet
+dir
+
+event-custom
+dir
+
+dataschema
+dir
+
+datasource
+dir
+
+querystring
+dir
+
+node-menunav
+dir
+
+history-deprecated
+dir
+
+event-valuechange
+dir
+
+classnamemanager
+dir
+
+dump
+dir
+
+intl
+dir
+
+queue-promote
+dir
+
+json
+dir
+
+node-flick
+dir
+
+event
+dir
+
+overlay
+dir
+
+anim
+dir
+
+node
+dir
+
+arraysort
+dir
+
+transition
+dir
+
+pluginhost
+dir
+
+oop
+dir
+
+async-queue
+dir
+
+swf
+dir
+
+console
+dir
+
+highlight
+dir
+
+uploader
+dir
+
+datatable
+dir
+
+profiler
+dir
+
+widget
+dir
+
+charts
+dir
+
+dd
+dir
+
+swfdetect
+dir
+

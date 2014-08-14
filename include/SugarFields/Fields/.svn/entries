@@ -1,0 +1,115 @@
+10
+
+dir
+25
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/include/SugarFields/Fields
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-04-08T17:42:54.534995Z
+2
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+Text
+dir
+
+Address
+dir
+
+Parent
+dir
+
+Currency
+dir
+
+Int
+dir
+
+Collection
+dir
+
+Bool
+dir
+
+Assigned_user_name
+dir
+
+Id
+dir
+
+Datetime
+dir
+
+Link
+dir
+
+Time
+dir
+
+URL
+dir
+
+Password
+dir
+
+Iframe
+dir
+
+Fullname
+dir
+
+Enum
+dir
+
+Html
+dir
+
+Float
+dir
+
+Download
+dir
+
+Phone
+dir
+
+Base
+dir
+
+Datetimecombo
+dir
+
+Relate
+dir
+
+Readonly
+dir
+
+Username
+dir
+
+Multienum
+dir
+
+File
+dir
+
+Radioenum
+dir
+

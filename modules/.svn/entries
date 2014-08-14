@@ -1,0 +1,330 @@
+10
+
+dir
+26
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru/modules
+svn+ssh://apache@crmhosting.ru/data/svn/crm.egovexpert.ru
+
+
+
+2013-06-25T16:18:48.458785Z
+26
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+69468ea6-0e1f-463e-b15c-125fa9d00307
+
+Connectors
+dir
+
+ProspectLists
+dir
+
+CampaignTrackers
+dir
+
+lm_TechnicalSupport
+dir
+
+Accounts
+dir
+
+BeanDictionary.php
+file
+
+
+
+
+2013-04-11T11:28:10.438049Z
+233575feabf6c1890205aaeef299c689
+2013-04-08T17:48:13.334930Z
+3
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2101
+
+EmailMan
+dir
+
+Relationships
+dir
+
+Tasks
+dir
+
+Leads
+dir
+
+EmailText
+dir
+
+ModuleBuilder
+dir
+
+Documents
+dir
+
+Campaigns
+dir
+
+OAuthTokens
+dir
+
+ACLRoles
+dir
+
+AOS_Products_Quotes
+dir
+
+EmailTemplates
+dir
+
+UpgradeWizard
+dir
+
+Meetings
+dir
+
+OAuthKeys
+dir
+
+SchedulersJobs
+dir
+
+MergeRecords
+dir
+
+EAPM
+dir
+
+EmailAddresses
+dir
+
+Help
+dir
+
+EmailMarketing
+dir
+
+Cases
+dir
+
+ACL
+dir
+
+Users
+dir
+
+lm_FaxMan
+dir
+
+Activities
+dir
+
+AOS_Line_Item_Groups
+dir
+
+Project
+dir
+
+Calendar
+dir
+
+Emails
+dir
+
+Import
+dir
+
+DocumentRevisions
+dir
+
+AOS_Invoices
+dir
+
+AOS_Quotes
+dir
+
+Prospects
+dir
+
+Charts
+dir
+
+Opportunities
+dir
+
+Roles
+dir
+
+Home
+dir
+
+Notes
+dir
+
+iCals
+dir
+
+Calls
+dir
+
+SYNO_Pdf_templates
+dir
+
+Bugs
+dir
+
+UserPreferences
+dir
+
+Schedulers
+dir
+
+History
+dir
+
+MailMerge
+dir
+
+Employees
+dir
+
+Releases
+dir
+
+TableDictionary.php
+file
+
+
+
+
+2013-04-11T11:28:10.438049Z
+ef9c0976beae149cd4433a39fd01ef94
+2013-04-08T17:48:13.334930Z
+3
+agentsib
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4894
+
+SugarFeed
+dir
+
+InboundEmail
+dir
+
+Versions
+dir
+
+vCals
+dir
+
+DynamicFields
+dir
+
+Contacts
+dir
+
+Trackers
+dir
+
+Groups
+dir
+
+ACLActions
+dir
+
+CampaignLog
+dir
+
+Administration
+dir
+
+LabelEditor
+dir
+
+SavedSearch
+dir
+
+AOS_PDF_Templates
+dir
+
+ProjectTask
+dir
+
+OptimisticLock
+dir
+
+Currencies
+dir
+
+AOS_Contracts
+dir
+
+Configurator
+dir
+
+AOS_Products
+dir
+
+Audit
+dir
+
+MySettings
+dir
+
+Studio
+dir
+
